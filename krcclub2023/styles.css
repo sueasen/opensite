@@ -1,10 +1,8 @@
-.fbox,
-.cbox {
+.fbox {
   transition: 1s all;
 }
 
-.fbox:hover,
-.cbox:hover {
+.fbox:hover {
   transform: scale(1.1, 1.1);
   transition: 1s all;
 }
@@ -12,4 +10,14 @@
 .fbox .flex-auto:hover {
   box-shadow:
     10px -10px 25px rgba(0, 0, 0, 0.9)
+}
+
+.cbox {
+  transition: 1s all;
+}
+
+.cbox:hover {
+  transform: scale(1.01, 1.01);
+  transition: 1s all;
+  opacity: 0.8;
 }
