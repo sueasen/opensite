@@ -51,22 +51,29 @@ const teams = [
   },
   {
     title: 'ディズニー提案サイト',
-    menber: ['堀越咲愛', '生方さくら', ''],
+    menber: ['堀越咲愛', '生方さくら'],
     id: '-Th2A41e0fQ',
   },
   {
     title: '図書管理アプリ',
-    menber: ['水野香苗', '名塚悠作', ''],
+    menber: ['水野香苗', '名塚悠作'],
     id: '1agLDQaru8o',
   },
 ];
+
+const iframeResize = () => {
+  document.querySelectorAll('iframe').forEach((iframe) => {
+    const height = (iframe.clientWidth * 9) / 16;
+    iframe.style.height = height + 'px';
+  });
+};
 
 const apply = async () => {
   teams.sort(() => Math.random() - 0.5);
   for await (const team of teams) {
     const iframe = document.createElement('iframe');
-    iframe.src = 'https://www.youtube.com/embed/' + team.id;
     const viewInfoDiv = document.createElement('div');
+    viewInfoDiv.classList.add('view-info');
     const textDiv = document.createElement('div');
     textDiv.innerText = team.title + '：' + team.menber.join(', ');
     viewInfoDiv.append(textDiv);
@@ -81,6 +88,8 @@ const apply = async () => {
     choiceBtnLi.append(img);
     document.querySelector('.choice-btn').append(choiceBtnLi);
   }
+  document.querySelector('.gallery iframe').src =
+    'https://www.youtube.com/embed/' + teams[0].id;
 
   //上部画像の設定
   $('.gallery').slick({
@@ -103,21 +112,51 @@ const apply = async () => {
   $('.gallery').on(
     'beforeChange',
     function (event, slick, currentSlide, nextSlide) {
-      var index = nextSlide; //次のスライド番号
+      console.log(currentSlide + ':' + nextSlide);
       //サムネイルのslick-currentを削除し次のスライド要素にslick-currentを追加
       $('.choice-btn .slick-slide')
         .removeClass('slick-current')
-        .eq(index)
+        .eq(nextSlide)
         .addClass('slick-current');
+
+      console.log($('.gallery iframe').eq(currentSlide));
+      console.log(document.querySelectorAll('.gallery iframe')[currentSlide]);
+
+      const current =
+        document.querySelectorAll('.gallery iframe')[currentSlide];
+      current.src = '';
+      const next = document.querySelectorAll('.gallery iframe')[nextSlide];
+      next.src = 'https://www.youtube.com/embed/' + teams[nextSlide].id;
+
+      // document
+      //   .querySelectorAll('.gallery iframe')
+      //   [currentSlide].contentWindow.postMessage(
+      //     '{"event":"command", "func":"stopVideo", "args":null}',
+      //     '*'
+      //   );
+
+      // //クリックイベントで動画を操作
+      // //再生
+      // document
+      //   .getElementById('ytplay')
+      //   .addEventListener('click', function (event) {
+      //     ag2ytControl('playVideo');
+      //   });
+      // //一時停止
+      // document
+      //   .getElementById('ytpause')
+      //   .addEventListener('click', function (event) {
+      //     ag2ytControl('pauseVideo');
+      //   });
+      // //停止
+      // document
+      //   .getElementById('ytstop')
+      //   .addEventListener('click', function (event) {
+      //     ag2ytControl('stopVideo');
+      //   });
     }
   );
 
-  const iframeResize = () => {
-    document.querySelectorAll('iframe').forEach((iframe) => {
-      const height = (iframe.clientWidth * 3) / 4;
-      iframe.style.height = height + 'px';
-    });
-  };
   iframeResize();
   window.addEventListener('resize', iframeResize);
 };

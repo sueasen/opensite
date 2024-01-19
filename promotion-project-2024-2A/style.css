@@ -17,10 +17,20 @@ iframe {
     width: 100%;
     height: auto;
     vertical-align: bottom;
+    border-radius: 1.5rem;
+    border: solid 0.1rem rgba(0, 0, 0, 0.3);
 }
 
 .view-info {
+    margin: 5px 0;
     text-align: center;
+    font-size: 16px;
+}
+
+@media (max-width: 500px) {
+    .view-info {
+        font-size: 14px;
+    }
 }
 
 /*メイン画像下に余白をつける*/
@@ -68,7 +78,13 @@ iframe {
     cursor: pointer;
     outline: none;
     background: #333;
-    width: 25% !important;
+    width: calc(100% / 6) !important;
+}
+
+@media (max-width: 500px) {
+    .choice-btn li {
+        width: calc(100% / 4) !important;
+    }
 }
 
 .choice-btn li img {
@@ -92,7 +108,7 @@ iframe {
 .wrapper {
     width: 94%;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 ul {
@@ -110,15 +126,45 @@ a:active {
     text-decoration: none;
 }
 
-h1 {
+header {
     text-align: center;
-    font-size: 1vw;
+    /* font-size: 1vw; */
+    padding: 5px 0;
+    margin-bottom: 5px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    margin: 0.1em 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 p {
     margin: 30px 0;
     word-wrap: break-word;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin: auto;
+    font-size: small;
+    z-index: 100;
+}
+
+@media (max-width: 500px) {
+    footer {
+        padding: 5px 0;
+        font-size: 10px;
+    }
+}
+
+.divline {
+    margin-bottom: 5px;
 }
