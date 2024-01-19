@@ -88,13 +88,31 @@ iframe {
 }
 
 .choice-btn li img {
-    opacity: 0.4;
+    opacity: 0.5;
     /*選択されていないものは透過40%*/
 }
 
 .choice-btn li.slick-current img {
     opacity: 1;
     /*選択されているものは透過しない*/
+}
+
+.choice-btn li div {
+    background-color: black;
+    text-align: center;
+    color: #ccc;
+    font-size: small;
+    opacity: 0.5;
+}
+
+.choice-btn li.slick-current div {
+    opacity: 1;
+}
+
+@media (max-width: 500px) {
+    .choice-btn li div {
+        font-size: 10px;
+    }
 }
 
 .choice-btn .slick-track {
