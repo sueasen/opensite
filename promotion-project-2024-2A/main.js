@@ -84,6 +84,7 @@ const apply = async () => {
   teams.sort(() => Math.random() - 0.5);
   for await (const team of teams) {
     const iframe = document.createElement('iframe');
+    iframe.setAttribute('allowfullscreen', '');
     const viewInfoDiv = document.createElement('div');
     viewInfoDiv.classList.add('view-info');
     const textDiv = document.createElement('div');
@@ -104,8 +105,7 @@ const apply = async () => {
     choiceBtnLi.append(memberDiv);
     document.querySelector('.choice-btn').append(choiceBtnLi);
   }
-  document.querySelector('.gallery iframe').src =
-    'https://www.youtube.com/embed/' + teams[0].id;
+  document.querySelector('.gallery iframe').src = iframeYoutubeUrl(teams[0].id);
 
   //上部画像の設定
   $('.gallery').slick({
@@ -138,12 +138,17 @@ const apply = async () => {
         document.querySelectorAll('.gallery iframe')[currentSlide];
       current.src = '';
       const next = document.querySelectorAll('.gallery iframe')[nextSlide];
-      next.src = 'https://www.youtube.com/embed/' + teams[nextSlide].id;
+      next.src = iframeYoutubeUrl(teams[nextSlide].id);
     }
   );
 
   iframeResize();
   window.addEventListener('resize', iframeResize);
+};
+
+const iframeYoutubeUrl = (youtubeId) => {
+  let youtubeUrl = 'https://www.youtube.com/embed/' + youtubeId;
+  return youtubeUrl;
 };
 
 apply();
