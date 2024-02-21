@@ -17,8 +17,6 @@ nav {
   position: fixed;
   background-color: white;
   top: 0;
-  /* left: 50%; */
-  /* transform: translate(0, -50%); */
   height: calc(var(--scale));
   width: 100%;
   border-bottom: solid 1px lightgray;
