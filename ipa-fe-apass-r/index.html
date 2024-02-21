@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>FE科目A免除 過去問ランダム</title>
+  </head>
+
+  <body>
+    <nav>
+      <label>FE科目A免除 過去問ランダム 問題数</label>
+      <select id="selectNum"></select>
+      <input
+        id="selectQ"
+        type="number"
+        step="1"
+        min="1"
+        max="80"
+        value="1"
+        maxlength="2"
+      />
+      <button id="prev">前 ＜</button>
+      <button id="next">＞ 後</button>
+      <button id="reset">リセット</button>
+    </nav>
+    <div class="container">
+      <iframe id="ifcontainer"></iframe>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>

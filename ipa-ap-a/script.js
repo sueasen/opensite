@@ -27,7 +27,6 @@ const seasons = [
   '03_aki',
   '04_aki',
 ];
-let now;
 
 nums.forEach((n) => {
   const option = document.createElement('option');
@@ -77,7 +76,6 @@ function computeUrl() {
   const min = Math.floor((selectQ.value - 1) * rate + 1);
   const max = Math.floor(selectQ.value * rate);
   const num = Math.floor(Math.random() * (max - min + 1)) + min;
-  console.log(num);
   const url = `https://www.ap-siken.com/kakomon/${season}/q${num}.html`;
   return url;
 }
