@@ -1289,6 +1289,45 @@ const seasons = {
   ],
 };
 
+const ignoreUrl = [
+  '',
+  'https://www.ap-siken.com/kakomon/23_aki/q72.html',
+  'https://www.ap-siken.com/kakomon/27_aki/q71.html',
+  'https://www.ap-siken.com/kakomon/28_aki/q72.html',
+  'https://www.ap-siken.com/kakomon/28_haru/q14.html',
+  'https://www.fe-siken.com/kakomon/22_aki/q36.html',
+  'https://www.fe-siken.com/kakomon/23_aki/q3.html',
+  'https://www.fe-siken.com/kakomon/23_aki/q56.html',
+  'https://www.fe-siken.com/kakomon/23_aki/q78.html',
+  'https://www.fe-siken.com/kakomon/23_aki/q8.html',
+  'https://www.fe-siken.com/kakomon/23_toku/q26.html',
+  'https://www.fe-siken.com/kakomon/24_aki/q35.html',
+  'https://www.fe-siken.com/kakomon/26_aki/q67.html',
+  'https://www.fe-siken.com/kakomon/26_aki/q67.html',
+  'https://www.fe-siken.com/kakomon/26_haru/q7.html',
+  'https://www.fe-siken.com/kakomon/26_haru/q71.html',
+  'https://www.fe-siken.com/kakomon/28_aki/q72.html',
+  'https://www.fe-siken.com/kakomon/29_aki/q54.html',
+  'https://www.fe-siken.com/kakomon/29_aki/q56.html',
+  'https://www.fe-siken.com/kakomon/29_aki/q65.html',
+  'https://www.fe-siken.com/kakomon/29_aki/q65.html',
+  'https://www.fe-siken.com/kakomon/30_aki/q42.html',
+  'https://www.fe-siken.com/kakomon/30_aki/q70.html',
+  'https://www.fe-siken.com/kakomon/30_haru/q42.html',
+  'https://www.fe-siken.com/kakomon/31_haru/q30.html',
+  'https://www.fe-siken.com/kakomon/31_haru/q60.html',
+  'https://www.fe-siken.com/kakomon/31_haru/q73.html',
+  'https://www.fe-siken.com/kakomon/01_aki/q50.html',
+  'https://www.fe-siken.com/kakomon/01_aki/q62.html',
+  'https://www.fe-siken.com/kakomon/01_aki/q62.html',
+  'https://www.fe-siken.com/kakomon/01_aki/q63.html',
+  'https://www.fe-siken.com/kakomon/01_aki/q63.html',
+  'https://www.fe-siken.com/kakomon/01_aki/q64.html',
+  'https://www.fe-siken.com/kakomon/01_aki/q64.html',
+  'https://www.fe-siken.com/kakomon/01_aki/q71.html',
+  'https://www.sg-siken.com/kakomon/30_aki/q39.html',
+];
+
 const iframe = document.querySelector('#ifcontainer');
 const selectNum = document.querySelector('#selectNum');
 const selectQ = document.querySelector('#selectQ');
@@ -1357,7 +1396,7 @@ function computeUrlFePass() {
   const max = Math.floor(selectQ.value * rate);
   const num = Math.floor(Math.random() * (max - min + 1)) + min;
   const url = qs[qsKey][num];
-  return url ? url : computeUrlFePass();
+  return ignoreUrl.includes(url) ? computeUrlFePass() : url;
 }
 
 function computeUrlFeAp(type) {
@@ -1368,7 +1407,7 @@ function computeUrlFeAp(type) {
   const max = Math.floor(selectQ.value * rate);
   const num = Math.floor(Math.random() * (max - min + 1)) + min;
   const url = `https://www.${type}-siken.com/kakomon/${season}/q${num}.html`;
-  return url;
+  return ignoreUrl.includes(url) ? computeUrlFeAp(type) : url;
 }
 
 function applyIFrame(url) {
