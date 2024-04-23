@@ -5,7 +5,7 @@ const prev = document.querySelector('#prev');
 const next = document.querySelector('#next');
 const reset = document.querySelector('#reset');
 
-const nums = [10, 20, 30, 40, 50, 60, 70, 80];
+const nums = [5, 10, 20, 30, 40, 50, 60, 70, 80];
 const seasons = [
   '25_haru',
   '26_haru',
