@@ -8,24 +8,25 @@ const reset = document.querySelector('#reset');
 const nums = [5, 10, 20, 30, 40, 50, 60, 70, 80];
 const seasons = [
   '25_haru',
-  '26_haru',
-  '27_haru',
-  '28_haru',
-  '29_haru',
-  '30_haru',
-  '31_haru',
-  '03_haru',
-  '04_haru',
   '25_aki',
+  '26_haru',
   '26_aki',
+  '27_haru',
   '27_aki',
+  '28_haru',
   '28_aki',
+  '29_haru',
   '29_aki',
+  '30_haru',
   '30_aki',
+  '31_haru',
   '01_aki',
   '02_aki',
+  '03_haru',
   '03_aki',
+  '04_haru',
   '04_aki',
+  '05_haru',
 ];
 
 nums.forEach((n) => {
