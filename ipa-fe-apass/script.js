@@ -1248,7 +1248,6 @@ const qs = {
     'https://www.fe-siken.com/kakomon/24_haru/q78.html',
   ],
   r06m06: [
-    ,
     , 'https://www.fe-siken.com/kakomon/21_haru/q1.html'
     , 'https://www.fe-siken.com/kakomon/05_menjo/q3.html'
     , 'https://www.fe-siken.com/kakomon/28_haru/q3.html'
