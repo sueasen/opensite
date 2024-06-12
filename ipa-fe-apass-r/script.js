@@ -1247,6 +1247,69 @@ const qs = {
     'https://www.ap-siken.com/kakomon/04_haru/q76.html',
     'https://www.fe-siken.com/kakomon/24_haru/q78.html',
   ],
+  r06m01: [
+    ,
+    , 'https://www.fe-siken.com/kakomon/21_haru/q1.html'
+    , 'https://www.fe-siken.com/kakomon/05_menjo/q3.html'
+    , 'https://www.fe-siken.com/kakomon/28_haru/q3.html'
+    , 'https://www.ap-siken.com/kakomon/28_haru/q3.html'
+    , 'https://www.ap-siken.com/kakomon/23_toku/q6.html'
+    , 'https://www.fe-siken.com/kakomon/27_aki/q7.html'
+    , 'https://www.fe-siken.com/kakomon/27_haru/q7.html'
+    , 'https://www.fe-siken.com/kakomon/25_aki/q9.html'
+    , 'https://www.fe-siken.com/kakomon/21_aki/q10.html'
+    , 'https://www.fe-siken.com/kakomon/24_aki/q11.html'
+    , 'https://www.fe-siken.com/kakomon/25_aki/q13.html'
+    , 'https://www.fe-siken.com/kakomon/27_aki/q14.html'
+    , 'https://www.fe-siken.com/kakomon/24_aki/q19.html'
+    , 'https://www.fe-siken.com/kakomon/23_toku/q23.html'
+    , 'https://www.fe-siken.com/kakomon/30_haru/q19.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q21.html'
+    , 'https://www.fe-siken.com/kakomon/26_haru/q23.html'
+    , 'https://www.fe-siken.com/kakomon/25_aki/q29.html'
+    , 'https://www.fe-siken.com/kakomon/21_haru/q32.html'
+    , 'https://www.ap-siken.com/kakomon/25_haru/q29.html'
+    , 'https://www.db-siken.com/kakomon/22_haru/am2_11.html'
+    , 'https://www.fe-siken.com/kakomon/21_aki/q34.html'
+    , 'https://www.ap-siken.com/kakomon/25_aki/q32.html'
+    , 'https://www.ap-siken.com/kakomon/25_aki/q34.html'
+    , 'https://www.fe-siken.com/kakomon/23_toku/q41.html'
+    , 'https://www.ap-siken.com/kakomon/29_aki/q35.html'
+    , 'https://www.sg-siken.com/kakomon/30_aki/q12.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q37.html'
+    , 'https://www.fe-siken.com/kakomon/27_aki/q45.html'
+    , 'http://holiday-programmer.net/au/detail.php?problem_i'
+    , 'https://www.sg-siken.com/kakomon/28_aki/q19.html'
+    , 'https://www.ap-siken.com/kakomon/30_haru/q41.html'
+    , 'https://www.ap-siken.com/kakomon/29_haru/q36.html'
+    , 'https://www.ap-siken.com/kakomon/21_haru/q57.html'
+    , 'https://www.fe-siken.com/kakomon/27_haru/q48.html'
+    , 'https://www.ap-siken.com/kakomon/26_haru/q47.html'
+    , 'https://www.fe-siken.com/kakomon/15_haru/q53.html'
+    , 'https://www.ap-siken.com/kakomon/26_haru/q50.html'
+    , 'https://www.ap-siken.com/kakomon/05_haru/q48.html'
+    , 'https://www.fe-siken.com/kakomon/30_haru/q50.html'
+    , 'https://www.fe-siken.com/kakomon/29_haru/q53.html'
+    , 'https://www.ap-siken.com/kakomon/22_aki/q52.html'
+    , 'https://www.ap-siken.com/kakomon/25_haru/q55.html'
+    , 'https://www.ap-siken.com/kakomon/28_aki/q57.html'
+    , 'https://www.ap-siken.com/kakomon/30_aki/q60.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q62.html'
+    , 'https://www.ap-siken.com/kakomon/28_aki/q63.html'
+    , 'https://www.fe-siken.com/kakomon/29_haru/q65.html'
+    , 'https://www.ap-siken.com/kakomon/27_aki/q67.html'
+    , 'https://www.ap-siken.com/kakomon/23_aki/q67.html'
+    , 'https://www.fe-siken.com/kakomon/29_haru/q70.html'
+    , 'https://www.ap-siken.com/kakomon/04_haru/q70.html'
+    , 'https://www.ap-siken.com/kakomon/29_aki/q73.html'
+    , 'https://www.fe-siken.com/kakomon/23_toku/q71.html'
+    , 'https://www.ap-siken.com/kakomon/24_haru/q72.html'
+    , 'https://www.fe-siken.com/kakomon/26_haru/q75.html'
+    , 'https://www.ap-siken.com/kakomon/22_haru/q77.html'
+    , 'https://www.ap-siken.com/kakomon/26_haru/q76.html'
+    , 'https://www.fe-siken.com/kakomon/19_aki/q72.html'
+    , 'https://www.ap-siken.com/kakomon/27_aki/q80.html'
+  ],
 };
 const nums = [10, 20, 30, 40, 50, 60, 70, 80];
 const seasons = {
@@ -1293,10 +1356,14 @@ const seasons = {
 // 3回出てる問題は除外
 const ignoreUrl = [
   '',
+  'https://www.ap-siken.com/kakomon/23_aki/q67.html',
   'https://www.ap-siken.com/kakomon/23_aki/q72.html',
+  'https://www.ap-siken.com/kakomon/25_haru/q29.html',
+  'https://www.ap-siken.com/kakomon/26_haru/q47.html',
   'https://www.ap-siken.com/kakomon/27_aki/q71.html',
   'https://www.ap-siken.com/kakomon/28_aki/q72.html',
   'https://www.ap-siken.com/kakomon/28_haru/q14.html',
+  'https://www.ap-siken.com/kakomon/29_aki/q35.html',
   'https://www.fe-siken.com/kakomon/22_aki/q36.html',
   'https://www.fe-siken.com/kakomon/23_aki/q3.html',
   'https://www.fe-siken.com/kakomon/23_aki/q56.html',
@@ -1304,10 +1371,13 @@ const ignoreUrl = [
   'https://www.fe-siken.com/kakomon/23_aki/q8.html',
   'https://www.fe-siken.com/kakomon/23_toku/q26.html',
   'https://www.fe-siken.com/kakomon/24_aki/q35.html',
+  'https://www.fe-siken.com/kakomon/25_aki/q29.html',
+  'https://www.fe-siken.com/kakomon/25_aki/q9.html',
   'https://www.fe-siken.com/kakomon/26_aki/q67.html',
   'https://www.fe-siken.com/kakomon/26_aki/q67.html',
   'https://www.fe-siken.com/kakomon/26_haru/q7.html',
   'https://www.fe-siken.com/kakomon/26_haru/q71.html',
+  'https://www.fe-siken.com/kakomon/27_aki/q14.html',
   'https://www.fe-siken.com/kakomon/28_aki/q72.html',
   'https://www.fe-siken.com/kakomon/29_aki/q54.html',
   'https://www.fe-siken.com/kakomon/29_aki/q56.html',
