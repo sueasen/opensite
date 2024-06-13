@@ -1449,10 +1449,14 @@ reset.addEventListener('click', (e) => {
 });
 
 function computeUrl() {
+  // 過去問 50%, FE 30% or 20%, AP 20% or 30% で計算
+  // FE/AP はテクノロジー(問題70%まで) は FE 30%, 以降は 20%計算
+  const qsNoRate = selectQ / selectNum;
+  const feRate = qsNoRate < 0.70 ? 0.80 : 0.70;
   const randomNumber = Math.random();
   if (randomNumber < 0.50) {
     return computeUrlFePass();
-  } else if (randomNumber < 0.80) {
+  } else if (randomNumber < feRate) {
     return computeUrlFeAp('fe');
   } else {
     return computeUrlFeAp('ap');
