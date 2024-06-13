@@ -1450,9 +1450,9 @@ reset.addEventListener('click', (e) => {
 
 function computeUrl() {
   const randomNumber = Math.random();
-  if (randomNumber < 0.35) {
+  if (randomNumber < 0.50) {
     return computeUrlFePass();
-  } else if (randomNumber < 0.805) {
+  } else if (randomNumber < 0.80) {
     return computeUrlFeAp('fe');
   } else {
     return computeUrlFeAp('ap');
