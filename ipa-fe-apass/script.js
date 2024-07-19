@@ -664,87 +664,87 @@ const qs = {
     'https://www.ap-siken.com/kakomon/21_haru/q78.html',
   ],
   r04m06: [
-    '',
-    'https://www.ap-siken.com/kakomon/24_haru/q1.html',
-    'https://www.fe-siken.com/kakomon/20_aki/q4.html',
-    'https://www.fe-siken.com/kakomon/20_aki/q3.html',
-    'https://www.ap-siken.com/kakomon/29_haru/q3.html',
-    'https://www.fe-siken.com/kakomon/24_aki/q2.html',
-    'https://www.ap-siken.com/kakomon/31_haru/q3.html',
-    'https://www.fe-siken.com/kakomon/26_haru/q6.html',
-    'https://www.fe-siken.com/kakomon/01_aki/q10.html',
-    'https://www.fe-siken.com/kakomon/19_haru/q14.html',
-    'https://www.ap-siken.com/kakomon/22_aki/q7.html',
-    'https://www.fe-siken.com/kakomon/25_aki/q9.html',
-    'https://www.ap-siken.com/kakomon/02_aki/q10.html',
-    'https://www.fe-siken.com/kakomon/19_haru/q21.html',
-    'https://www.fe-siken.com/kakomon/20_aki/q26.html',
-    'https://www.ap-siken.com/kakomon/25_haru/q17.html',
-    'https://www.fe-siken.com/kakomon/23_toku/q17.html',
-    'https://www.fe-siken.com/kakomon/01_aki/q17.html',
-    'http://www.bohyoh.com/ITEE/FIT/1998B/FIT1998BA37.html',
-    'https://www.ap-siken.com/kakomon/29_aki/q19.html',
-    'https://www.fe-siken.com/kakomon/25_haru/q23.html',
-    'https://www.fe-siken.com/kakomon/23_aki/q24.html',
-    'https://www.fe-siken.com/kakomon/21_aki/q25.html',
-    'https://www.ap-siken.com/kakomon/21_haru/q27.html',
-    'https://www.ap-siken.com/kakomon/24_aki/q34.html',
-    'https://www.fe-siken.com/kakomon/22_haru/q29.html',
-    'https://www.fe-siken.com/kakomon/24_haru/q28.html',
-    'https://www.fe-siken.com/kakomon/22_aki/q30.html',
-    'https://www.fe-siken.com/kakomon/17_aki/q63.html',
-    'https://www.fe-siken.com/kakomon/31_haru/q30.html',
-    'https://www.fe-siken.com/kakomon/21_haru/q36.html',
-    'https://www.fe-siken.com/kakomon/17_aki/q53.html',
-    'https://www.fe-siken.com/kakomon/25_aki/q36.html',
-    'https://www.ap-siken.com/kakomon/22_haru/q39.html',
-    'https://www.sg-siken.com/kakomon/31_haru/q46.html',
-    'https://www.ap-siken.com/kakomon/26_haru/q36.html',
-    'https://www.fe-siken.com/kakomon/28_haru/q36.html',
-    'https://www.fe-siken.com/kakomon/30_haru/q37.html',
-    'https://www.sg-siken.com/kakomon/30_haru/q24.html',
-    'https://www.fe-siken.com/kakomon/27_aki/q37.html',
-    'https://www.fe-siken.com/kakomon/26_haru/q38.html',
-    'https://www.ap-siken.com/kakomon/24_haru/q43.html',
-    'https://www.ap-siken.com/kakomon/30_haru/q43.html',
-    'https://www.ap-siken.com/kakomon/24_aki/q43.html',
-    'https://www.ap-siken.com/kakomon/29_aki/q44.html',
-    'https://www.fe-siken.com/kakomon/22_aki/q47.html',
-    'https://www.fe-siken.com/kakomon/31_haru/q48.html',
-    'https://www.fe-siken.com/kakomon/20_aki/q44.html',
-    'https://www.ap-siken.com/kakomon/25_haru/q47.html',
-    'https://www.fe-siken.com/kakomon/01_aki/q50.html',
-    'https://www.fe-siken.com/kakomon/21_haru/q49.html',
-    'https://www.ap-siken.com/kakomon/23_aki/q52.html',
-    'https://www.fe-siken.com/kakomon/25_haru/q52.html',
-    'https://www.ap-siken.com/kakomon/28_haru/q53.html',
-    'https://www.fe-siken.com/kakomon/28_haru/q54.html',
-    'https://www.fe-siken.com/kakomon/27_haru/q55.html',
-    'https://www.ap-siken.com/kakomon/17_haru/q50.html',
-    'https://www.ap-siken.com/kakomon/26_haru/q57.html',
-    'https://www.fe-siken.com/kakomon/22_haru/q59.html',
-    'https://www.sg-siken.com/kakomon/31_haru/q39.html',
-    'https://www.ap-siken.com/kakomon/23_aki/q59.html',
-    'https://www.ap-siken.com/kakomon/22_aki/q63.html',
-    'https://www.ap-siken.com/kakomon/22_haru/q64.html',
-    'https://www.ap-siken.com/kakomon/28_haru/q64.html',
-    'https://www.ap-siken.com/kakomon/30_haru/q65.html',
-    'https://www.ap-siken.com/kakomon/24_aki/q66.html',
-    'https://www.ap-siken.com/kakomon/21_aki/q69.html',
-    'https://www.fe-siken.com/kakomon/25_aki/q70.html',
-    'https://www.ap-siken.com/kakomon/24_aki/q69.html',
-    'https://www.fe-siken.com/kakomon/21_aki/q70.html',
-    'https://www.ap-siken.com/kakomon/02_aki/q71.html',
-    'https://www.ap-siken.com/kakomon/30_haru/q71.html',
-    'https://www.fe-siken.com/kakomon/24_aki/q72.html',
-    'https://www.fe-siken.com/kakomon/01_aki/q71.html',
-    'https://www.fe-siken.com/kakomon/26_haru/q71.html',
-    'https://www.fe-siken.com/kakomon/27_haru/q76.html',
-    'https://www.fe-siken.com/kakomon/30_haru/q75.html',
-    'https://www.ap-siken.com/kakomon/21_haru/q76.html',
-    'https://www.fe-siken.com/kakomon/23_aki/q77.html',
-    'https://www.fe-siken.com/kakomon/22_aki/q80.html',
-    'https://www.fe-siken.com/kakomon/24_haru/q80.html',
+    ''
+    , 'https://www.fe-siken.com/kakomon/20_haru/q5.html'
+    , 'https://www.fe-siken.com/kakomon/24_haru/q3.html'
+    , 'https://www.ap-siken.com/kakomon/20_haru/q4.html'
+    , 'https://www.fe-siken.com/kakomon/20_aki/q8.html'
+    , 'https://www.fe-siken.com/kakomon/24_aki/q4.html'
+    , 'https://www.ap-siken.com/kakomon/23_aki/q4.html'
+    , 'https://www.fe-siken.com/kakomon/26_haru/q7.html'
+    , 'https://www.fe-siken.com/kakomon/22_haru/q5.html'
+    , 'https://www.ap-siken.com/kakomon/21_haru/q5.html'
+    , 'https://www.fe-siken.com/kakomon/19_aki/q15.html'
+    , 'https://www.ap-siken.com/kakomon/25_haru/q9.html'
+    , 'https://www.fe-siken.com/kakomon/28_haru/q11.html'
+    , 'https://www.fe-siken.com/kakomon/25_haru/q13.html'
+    , 'https://www.fe-siken.com/kakomon/21_aki/q13.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q18.html'
+    , 'https://www.ap-siken.com/kakomon/24_haru/q18.html'
+    , 'https://www.ap-siken.com/kakomon/31_haru/q19.html'
+    , 'https://www.fe-siken.com/kakomon/28_haru/q17.html'
+    , 'https://www.fe-siken.com/kakomon/21_haru/q21.html'
+    , 'https://www.ap-siken.com/kakomon/25_aki/q22.html'
+    , 'https://www.fe-siken.com/kakomon/24_haru/q70.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q22.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q28.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q30.html'
+    , 'https://www.fe-siken.com/kakomon/25_aki/q29.html'
+    , 'https://www.fe-siken.com/kakomon/31_haru/q26.html'
+    , 'https://www.fe-siken.com/kakomon/26_haru/q27.html'
+    , 'https://www.fe-siken.com/kakomon/16_aki/q68.html'
+    , 'https://www.fe-siken.com/kakomon/24_aki/q31.html'
+    , 'https://www.ap-siken.com/kakomon/29_haru/q31.html'
+    , 'https://www.fe-siken.com/kakomon/25_haru/q33.html'
+    , 'https://www.fe-siken.com/kakomon/24_aki/q35.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q33.html'
+    , 'https://www.ap-siken.com/kakomon/29_aki/q35.html'
+    , 'https://www.ap-siken.com/kakomon/28_haru/q36.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q37.html'
+    , 'https://www.ap-siken.com/kakomon/23_aki/q38.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q37.html'
+    , 'https://www.ap-siken.com/kakomon/03_haru/q40.html'
+    , 'https://www.ap-siken.com/kakomon/27_haru/q40.html'
+    , 'https://www.sg-siken.com/kakomon/31_haru/q13.html'
+    , 'https://www.fe-siken.com/kakomon/28_aki/q42.html'
+    , 'https://www.fe-siken.com/kakomon/26_haru/q44.html'
+    , 'https://www.ap-siken.com/kakomon/31_haru/q43.html'
+    , 'https://www.fe-siken.com/kakomon/24_aki/q45.html'
+    , 'https://www.fe-siken.com/kakomon/29_haru/q46.html'
+    , 'https://www.fe-siken.com/kakomon/20_aki/q41.html'
+    , 'https://www.fe-siken.com/kakomon/15_aki/q53.html'
+    , 'https://www.fe-siken.com/kakomon/16_aki/q52.html'
+    , 'https://www.ap-siken.com/kakomon/26_aki/q49.html'
+    , 'https://www.fe-siken.com/kakomon/29_aki/q52.html'
+    , 'https://www.fe-siken.com/kakomon/31_haru/q53.html'
+    , 'https://www.ap-siken.com/kakomon/22_aki/q54.html'
+    , 'https://www.fe-siken.com/kakomon/29_aki/q54.html'
+    , 'https://www.ap-siken.com/kakomon/21_haru/q56.html'
+    , 'https://www.ap-siken.com/kakomon/25_haru/q57.html'
+    , 'https://www.ap-siken.com/kakomon/03_haru/q57.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q60.html'
+    , 'https://www.fe-siken.com/kakomon/22_aki/q59.html'
+    , 'https://www.fe-siken.com/kakomon/25_haru/q59.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q62.html'
+    , 'https://www.fe-siken.com/kakomon/29_aki/q62.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q63.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q64.html'
+    , 'https://www.fe-siken.com/kakomon/26_aki/q65.html'
+    , 'https://www.ap-siken.com/kakomon/27_haru/q67.html'
+    , 'https://www.ap-siken.com/kakomon/24_aki/q68.html'
+    , 'https://www.ap-siken.com/kakomon/27_haru/q68.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q69.html'
+    , 'https://www.ap-siken.com/kakomon/24_aki/q72.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q73.html'
+    , 'https://www.ap-siken.com/kakomon/28_aki/q72.html'
+    , 'https://www.ap-siken.com/kakomon/29_haru/q72.html'
+    , 'https://www.fe-siken.com/kakomon/29_aki/q73.html'
+    , 'https://www.fe-siken.com/kakomon/27_haru/q78.html'
+    , 'https://www.fe-siken.com/kakomon/21_aki/q76.html'
+    , 'https://www.fe-siken.com/kakomon/31_haru/q77.html'
+    , 'https://www.fe-siken.com/kakomon/01_moshi/q75.html'
+    , 'https://www.fe-siken.com/kakomon/29_aki/q79.html'
+    , 'https://www.ap-siken.com/kakomon/27_aki/q80.html'
   ],
   r04m07: [
     '',
@@ -830,424 +830,425 @@ const qs = {
     'https://www.ap-siken.com/kakomon/27_aki/q80.html',
   ],
   r04m12: [
-    '',
-    'https://www.fe-siken.com/kakomon/27_haru/q2.html',
-    'https://www.fe-siken.com/kakomon/03_menjo/q3.html',
-    'https://www.fe-siken.com/kakomon/22_aki/q3.html',
-    'https://www.fe-siken.com/kakomon/23_aki/q3.html',
-    'https://www.ap-siken.com/kakomon/03_aki/q3.html',
-    'https://www.fe-siken.com/kakomon/17_haru/q10.html',
-    'https://www.ap-siken.com/kakomon/29_aki/q6.html',
-    'https://www.ap-siken.com/kakomon/03_aki/q5.html',
-    'https://www.fe-siken.com/kakomon/16_haru/q15.html',
-    'https://www.fe-siken.com/kakomon/21_haru/q8.html',
-    'https://www.fe-siken.com/kakomon/24_haru/q11.html',
-    'https://www.ap-siken.com/kakomon/24_haru/q12.html',
-    'https://www.fe-siken.com/kakomon/23_toku/q10.html',
-    'https://www.fe-siken.com/kakomon/23_toku/q12.html',
-    'https://www.ap-siken.com/kakomon/25_haru/q13.html',
-    'https://www.fe-siken.com/kakomon/27_haru/q13.html',
-    'https://www.fe-siken.com/kakomon/17_aki/q29.html',
-    'https://www.fe-siken.com/kakomon/29_aki/q16.html',
-    'https://www.fe-siken.com/kakomon/23_aki/q22.html',
-    'https://www.ap-siken.com/kakomon/21_aki/q24.html',
-    'https://www.fe-siken.com/kakomon/23_toku/q26.html',
-    'https://www.fe-siken.com/kakomon/26_aki/q23.html',
-    'https://www.fe-siken.com/kakomon/30_aki/q24.html',
-    'https://www.fe-siken.com/kakomon/29_haru/q24.html',
-    'https://www.ap-siken.com/kakomon/26_aki/q25.html',
-    'https://www.ap-siken.com/kakomon/21_aki/q30.html',
-    'https://www.fe-siken.com/kakomon/22_haru/q31.html',
-    'https://www.fe-siken.com/kakomon/23_toku/q34.html',
-    'https://www.fe-siken.com/kakomon/20_aki/q61.html',
-    'https://www.fe-siken.com/kakomon/22_aki/q36.html',
-    'https://www.ap-siken.com/kakomon/01_aki/q33.html',
-    'https://www.ap-siken.com/kakomon/29_haru/q32.html',
-    'https://www.fe-siken.com/kakomon/02_menjo/q33.html',
-    'https://www.ap-siken.com/kakomon/03_haru/q36.html',
-    'https://www.fe-siken.com/kakomon/29_haru/q38.html',
-    'https://www.ap-siken.com/kakomon/31_haru/q37.html',
-    'https://www.fe-siken.com/kakomon/26_haru/q43.html',
-    'https://www.fe-siken.com/kakomon/30_aki/q42.html',
-    'https://www.ap-siken.com/kakomon/03_aki/q45.html',
-    'https://www.ap-siken.com/kakomon/26_aki/q45.html',
-    'https://www.fe-siken.com/kakomon/27_aki/q42.html',
-    'https://www.fe-siken.com/kakomon/02_menjo/q43.html',
-    'https://www.fe-siken.com/kakomon/30_haru/q42.html',
-    'https://www.fe-siken.com/kakomon/02_menjo/q44.html',
-    'https://www.fe-siken.com/kakomon/21_haru/q46.html',
-    'https://www.fe-siken.com/kakomon/22_aki/q46.html',
-    'https://www.rs.kagu.tus.ac.jp/infoserv/j-siken/H12b2/am56.html',
-    'https://www.fe-siken.com/kakomon/23_aki/q48.html',
-    'https://www.fe-siken.com/kakomon/22_aki/q49.html',
-    'https://www.ap-siken.com/kakomon/29_aki/q50.html',
-    'https://www.sg-siken.com/kakomon/01_aki/q43.html',
-    'https://www.fe-siken.com/kakomon/22_aki/q51.html',
-    'https://www.ap-siken.com/kakomon/29_aki/q53.html',
-    'https://www.fe-siken.com/kakomon/30_haru/q54.html',
-    'https://www.sg-siken.com/kakomon/30_aki/q40.html',
-    'https://www.fe-siken.com/kakomon/23_aki/q56.html',
-    'https://www.sg-siken.com/kakomon/31_haru/q42.html',
-    'https://www.sg-siken.com/kakomon/01_aki/q39.html',
-    'https://www.ap-siken.com/kakomon/03_haru/q60.html',
-    'https://www.ap-siken.com/kakomon/22_haru/q59.html',
-    'https://www.ap-siken.com/kakomon/30_aki/q61.html',
-    'https://www.ap-siken.com/kakomon/29_haru/q62.html',
-    'https://www.fe-siken.com/kakomon/26_aki/q64.html',
-    'https://www.fe-siken.com/kakomon/24_aki/q64.html',
-    'https://www.ap-siken.com/kakomon/27_haru/q65.html',
-    'https://www.ap-siken.com/kakomon/23_aki/q66.html',
-    'https://www.ap-siken.com/kakomon/03_aki/q69.html',
-    'https://www.fe-siken.com/kakomon/20_aki/q70.html',
-    'https://www.ap-siken.com/kakomon/01_aki/q70.html',
-    'https://www.ap-siken.com/kakomon/31_haru/q71.html',
-    'https://www.fe-siken.com/kakomon/30_haru/q73.html',
-    'https://www.fe-siken.com/kakomon/30_aki/q72.html',
-    'https://www.ap-siken.com/kakomon/26_aki/q73.html',
-    'https://www.fe-siken.com/kakomon/01_aki/q73.html',
-    'https://www.ap-siken.com/kakomon/26_aki/q74.html',
-    'https://www.fe-siken.com/kakomon/24_haru/q75.html',
-    'https://www.fe-siken.com/kakomon/29_haru/q78.html',
-    'https://www.ap-siken.com/kakomon/22_haru/q78.html',
-    'https://www.fe-siken.com/kakomon/24_aki/q79.html',
-    'http://itnavi.style-mods.net/question/sd18_2/sd18_2_78.htm',
+    ''
+    , 'https://www.fe-siken.com/kakomon/27_haru/q2.html'
+    , 'https://www.fe-siken.com/kakomon/03_menjo/q3.html'
+    , 'https://www.fe-siken.com/kakomon/22_aki/q3.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q3.html'
+    , 'https://www.ap-siken.com/kakomon/03_aki/q3.html'
+    , 'https://www.fe-siken.com/kakomon/17_haru/q10.html'
+    , 'https://www.ap-siken.com/kakomon/29_aki/q6.html'
+    , 'https://www.ap-siken.com/kakomon/03_aki/q5.html'
+    , 'https://www.fe-siken.com/kakomon/16_haru/q15.html'
+    , 'https://www.fe-siken.com/kakomon/21_haru/q8.html'
+    , 'https://www.fe-siken.com/kakomon/24_haru/q11.html'
+    , 'https://www.ap-siken.com/kakomon/24_haru/q12.html'
+    , 'https://www.fe-siken.com/kakomon/23_toku/q10.html'
+    , 'https://www.fe-siken.com/kakomon/23_toku/q12.html'
+    , 'https://www.ap-siken.com/kakomon/25_haru/q13.html'
+    , 'https://www.fe-siken.com/kakomon/27_haru/q13.html'
+    , 'https://www.fe-siken.com/kakomon/17_aki/q29.html'
+    , 'https://www.fe-siken.com/kakomon/29_aki/q16.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q22.html'
+    , 'https://www.ap-siken.com/kakomon/21_aki/q24.html'
+    , 'https://www.fe-siken.com/kakomon/23_toku/q26.html'
+    , 'https://www.fe-siken.com/kakomon/26_aki/q23.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q24.html'
+    , 'https://www.fe-siken.com/kakomon/29_haru/q24.html'
+    , 'https://www.ap-siken.com/kakomon/26_aki/q25.html'
+    , 'https://www.ap-siken.com/kakomon/21_aki/q30.html'
+    , 'https://www.fe-siken.com/kakomon/22_haru/q31.html'
+    , 'https://www.fe-siken.com/kakomon/23_toku/q34.html'
+    , 'https://www.fe-siken.com/kakomon/20_aki/q61.html'
+    , 'https://www.fe-siken.com/kakomon/22_aki/q36.html'
+    , 'https://www.ap-siken.com/kakomon/01_aki/q33.html'
+    , 'https://www.ap-siken.com/kakomon/29_haru/q32.html'
+    , 'https://www.fe-siken.com/kakomon/02_menjo/q33.html'
+    , 'https://www.ap-siken.com/kakomon/03_haru/q36.html'
+    , 'https://www.fe-siken.com/kakomon/29_haru/q38.html'
+    , 'https://www.ap-siken.com/kakomon/31_haru/q37.html'
+    , 'https://www.fe-siken.com/kakomon/26_haru/q43.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q42.html'
+    , 'https://www.ap-siken.com/kakomon/03_aki/q45.html'
+    , 'https://www.ap-siken.com/kakomon/26_aki/q45.html'
+    , 'https://www.fe-siken.com/kakomon/27_aki/q42.html'
+    , 'https://www.fe-siken.com/kakomon/02_menjo/q43.html'
+    , 'https://www.fe-siken.com/kakomon/30_haru/q42.html'
+    , 'https://www.fe-siken.com/kakomon/02_menjo/q44.html'
+    , 'https://www.fe-siken.com/kakomon/21_haru/q46.html'
+    , 'https://www.fe-siken.com/kakomon/22_aki/q46.html'
+    , 'https://www.fe-siken.com/kakomon/04_menjo/q47.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q48.html'
+    , 'https://www.fe-siken.com/kakomon/22_aki/q49.html'
+    , 'https://www.ap-siken.com/kakomon/29_aki/q50.html'
+    , 'https://www.sg-siken.com/kakomon/01_aki/q43.html'
+    , 'https://www.fe-siken.com/kakomon/22_aki/q51.html'
+    , 'https://www.ap-siken.com/kakomon/29_aki/q53.html'
+    , 'https://www.fe-siken.com/kakomon/30_haru/q54.html'
+    , 'https://www.sg-siken.com/kakomon/30_aki/q40.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q56.html'
+    , 'https://www.sg-siken.com/kakomon/31_haru/q42.html'
+    , 'https://www.sg-siken.com/kakomon/01_aki/q39.html'
+    , 'https://www.ap-siken.com/kakomon/03_haru/q60.html'
+    , 'https://www.ap-siken.com/kakomon/22_haru/q59.html'
+    , 'https://www.ap-siken.com/kakomon/30_aki/q61.html'
+    , 'https://www.ap-siken.com/kakomon/29_haru/q62.html'
+    , 'https://www.fe-siken.com/kakomon/26_aki/q64.html'
+    , 'https://www.fe-siken.com/kakomon/24_aki/q64.html'
+    , 'https://www.ap-siken.com/kakomon/27_haru/q65.html'
+    , 'https://www.ap-siken.com/kakomon/23_aki/q66.html'
+    , 'https://www.ap-siken.com/kakomon/03_aki/q69.html'
+    , 'https://www.fe-siken.com/kakomon/20_aki/q70.html'
+    , 'https://www.ap-siken.com/kakomon/01_aki/q70.html'
+    , 'https://www.ap-siken.com/kakomon/31_haru/q71.html'
+    , 'https://www.fe-siken.com/kakomon/30_haru/q73.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q72.html'
+    , 'https://www.ap-siken.com/kakomon/26_aki/q73.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q73.html'
+    , 'https://www.ap-siken.com/kakomon/26_aki/q74.html'
+    , 'https://www.fe-siken.com/kakomon/24_haru/q75.html'
+    , 'https://www.fe-siken.com/kakomon/29_haru/q78.html'
+    , 'https://www.ap-siken.com/kakomon/22_haru/q78.html'
+    , 'https://www.fe-siken.com/kakomon/24_aki/q79.html'
+    , 'https://www.fe-siken.com/kakomon/04_menjo/q80.html'
   ],
   r05m01: [
-    '',
-    'https://www.fe-siken.com/kakomon/16_aki/q1.html',
-    'https://www.fe-siken.com/kakomon/19_aki/q9.html',
-    'https://www.fe-siken.com/kakomon/14_haru/q11.html',
-    'https://www.fe-siken.com/kakomon/01_aki/q4.html',
-    'https://www.fe-siken.com/kakomon/19_haru/q10.html',
-    '',
-    'https://www.rs.kagu.tus.ac.jp/infoserv/j-siken/H12a2/am11.html',
-    'https://www.fe-siken.com/kakomon/17_aki/q15.html',
-    'https://www.ap-siken.com/kakomon/21_haru/q8.html',
-    'https://www.fe-siken.com/kakomon/30_aki/q7.html',
-    'https://www.fe-siken.com/kakomon/25_haru/q10.html',
-    'https://www.fe-siken.com/kakomon/22_aki/q10.html',
-    'https://www.ap-siken.com/kakomon/27_haru/q10.html',
-    'https://www.ap-siken.com/kakomon/24_aki/q12.html',
-    'https://www.ap-siken.com/kakomon/28_haru/q14.html',
-    'https://www.ap-siken.com/kakomon/21_aki/q15.html',
-    'https://www.fe-siken.com/kakomon/29_haru/q16.html',
-    'https://www.fe-siken.com/kakomon/24_aki/q18.html',
-    'https://www.ap-siken.com/kakomon/23_toku/q21.html',
-    'https://www.fe-siken.com/kakomon/28_aki/q21.html',
-    'https://www.fe-siken.com/kakomon/20_aki/q16.html',
-    'https://www.ap-siken.com/kakomon/28_aki/q22.html',
-    'https://www.ap-siken.com/kakomon/27_aki/q24.html',
-    'https://www.ap-siken.com/kakomon/22_haru/q28.html',
-    'https://www.fe-siken.com/kakomon/19_haru/q63.html',
-    'https://www.fe-siken.com/kakomon/23_toku/q32.html',
-    'https://www.fe-siken.com/kakomon/31_haru/q28.html',
-    'https://www.fe-siken.com/kakomon/21_haru/q35.html',
-    'https://www.ap-siken.com/kakomon/30_aki/q30.html',
-    'https://www.fe-siken.com/kakomon/01_aki/q31.html',
-    'https://www.ap-siken.com/kakomon/23_aki/q35.html',
-    'https://www.fe-siken.com/kakomon/18_haru/q53.html',
-    'https://www.ap-siken.com/kakomon/27_aki/q34.html',
-    'https://www.ap-siken.com/kakomon/29_haru/q34.html',
-    'https://www.sg-siken.com/kakomon/29_haru/q18.html',
-    'https://www.ap-siken.com/kakomon/03_aki/q44.html',
-    'https://www.sg-siken.com/kakomon/30_aki/q23.html',
-    'https://www.fe-siken.com/kakomon/27_aki/q43.html',
-    'https://www.sg-siken.com/kakomon/01_aki/q19.html',
-    'https://www.fe-siken.com/kakomon/28_haru/q41.html',
-    'https://www.ap-siken.com/kakomon/03_aki/q40.html',
-    'https://www.fe-siken.com/kakomon/01_aki/q43.html',
-    'https://www.sc-siken.com/kakomon/25_haru/am2_4.html',
-    'https://www.ap-siken.com/kakomon/30_aki/q41.html',
-    'https://www.ap-siken.com/kakomon/26_haru/q47.html',
-    'https://www.fe-siken.com/kakomon/26_haru/q48.html',
-    'https://www.ap-siken.com/kakomon/02_moshi/q47.html',
-    'https://www.fe-siken.com/kakomon/18_aki/q45.html',
-    'https://www.ap-siken.com/kakomon/26_aki/q48.html',
-    'https://www.ap-siken.com/kakomon/28_aki/q49.html',
-    'https://www.fe-siken.com/kakomon/26_haru/q53.html',
-    'https://www.fe-siken.com/kakomon/01_aki/q53.html',
-    'https://www.ap-siken.com/kakomon/29_aki/q54.html',
-    'https://www.fe-siken.com/kakomon/01_aki/q54.html',
-    'https://www.fe-siken.com/kakomon/31_haru/q56.html',
-    'https://www.fe-siken.com/kakomon/30_aki/q55.html',
-    'https://www.fe-siken.com/kakomon/23_aki/q57.html',
-    'https://www.sg-siken.com/kakomon/30_aki/q39.html',
-    'https://www.sc-siken.com/kakomon/21_haru/am2_25.html',
-    'https://www.fe-siken.com/kakomon/30_aki/q60.html',
-    'https://www.fe-siken.com/kakomon/27_haru/q62.html',
-    'https://www.fe-siken.com/kakomon/25_haru/q63.html',
-    'https://www.ap-siken.com/kakomon/03_aki/q61.html',
-    'https://www.ap-siken.com/kakomon/26_haru/q66.html',
-    'https://www.fe-siken.com/kakomon/26_aki/q67.html',
-    'https://www.ap-siken.com/kakomon/28_aki/q67.html',
-    'https://www.ap-siken.com/kakomon/24_aki/q67.html',
-    'https://www.fe-siken.com/kakomon/24_aki/q70.html',
-    'https://www.fe-siken.com/kakomon/21_haru/q71.html',
-    'https://www.ap-siken.com/kakomon/01_aki/q71.html',
-    'https://www.ap-siken.com/kakomon/25_haru/q71.html',
-    'https://www.ap-siken.com/kakomon/28_haru/q71.html',
-    'https://www.fe-siken.com/kakomon/28_aki/q72.html',
-    'https://www.fe-siken.com/kakomon/31_haru/q73.html',
-    'https://www.fe-siken.com/kakomon/20_aki/q74.html',
-    'https://www.fe-siken.com/kakomon/25_aki/q75.html',
-    'https://www.fe-siken.com/kakomon/01_aki/q77.html',
-    'https://www.fe-siken.com/kakomon/23_aki/q78.html',
-    'https://www.fe-siken.com/kakomon/23_aki/q79.html',
-    'https://www.ap-siken.com/kakomon/27_haru/q80.html',
+    ''
+    , 'https://www.fe-siken.com/kakomon/16_aki/q1.html'
+    , 'https://www.fe-siken.com/kakomon/19_aki/q9.html'
+    , 'https://www.fe-siken.com/kakomon/14_haru/q11.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q4.html'
+    , 'https://www.fe-siken.com/kakomon/19_haru/q10.html'
+    , 'https://www.fe-siken.com/kakomon/04_menjo/q5.html'
+    , 'https://www.fe-siken.com/kakomon/04_menjo/q6.html'
+    , 'https://www.fe-siken.com/kakomon/17_aki/q15.html'
+    , 'https://www.ap-siken.com/kakomon/21_haru/q8.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q7.html'
+    , 'https://www.fe-siken.com/kakomon/25_haru/q10.html'
+    , 'https://www.fe-siken.com/kakomon/22_aki/q10.html'
+    , 'https://www.ap-siken.com/kakomon/27_haru/q10.html'
+    , 'https://www.ap-siken.com/kakomon/24_aki/q12.html'
+    , 'https://www.ap-siken.com/kakomon/28_haru/q14.html'
+    , 'https://www.ap-siken.com/kakomon/21_aki/q15.html'
+    , 'https://www.fe-siken.com/kakomon/29_haru/q16.html'
+    , 'https://www.fe-siken.com/kakomon/24_aki/q18.html'
+    , 'https://www.ap-siken.com/kakomon/23_toku/q21.html'
+    , 'https://www.fe-siken.com/kakomon/28_aki/q21.html'
+    , 'https://www.fe-siken.com/kakomon/20_aki/q16.html'
+    , 'https://www.ap-siken.com/kakomon/28_aki/q22.html'
+    , 'https://www.ap-siken.com/kakomon/27_aki/q24.html'
+    , 'https://www.ap-siken.com/kakomon/22_haru/q28.html'
+    , 'https://www.fe-siken.com/kakomon/19_haru/q63.html'
+    , 'https://www.fe-siken.com/kakomon/23_toku/q32.html'
+    , 'https://www.fe-siken.com/kakomon/31_haru/q28.html'
+    , 'https://www.fe-siken.com/kakomon/21_haru/q35.html'
+    , 'https://www.ap-siken.com/kakomon/30_aki/q30.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q31.html'
+    , 'https://www.ap-siken.com/kakomon/23_aki/q35.html'
+    , 'https://www.fe-siken.com/kakomon/18_haru/q53.html'
+    , 'https://www.ap-siken.com/kakomon/27_aki/q34.html'
+    , 'https://www.ap-siken.com/kakomon/29_haru/q34.html'
+    , 'https://www.sg-siken.com/kakomon/29_haru/q18.html'
+    , 'https://www.ap-siken.com/kakomon/03_aki/q44.html'
+    , 'https://www.sg-siken.com/kakomon/30_aki/q23.html'
+    , 'https://www.fe-siken.com/kakomon/27_aki/q43.html'
+    , 'https://www.sg-siken.com/kakomon/01_aki/q19.html'
+    , 'https://www.fe-siken.com/kakomon/28_haru/q41.html'
+    , 'https://www.ap-siken.com/kakomon/03_aki/q40.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q43.html'
+    , 'https://www.sc-siken.com/kakomon/25_haru/am2_4.html'
+    , 'https://www.ap-siken.com/kakomon/30_aki/q41.html'
+    , 'https://www.ap-siken.com/kakomon/26_haru/q47.html'
+    , 'https://www.fe-siken.com/kakomon/26_haru/q48.html'
+    , 'https://www.ap-siken.com/kakomon/02_moshi/q47.html'
+    , 'https://www.fe-siken.com/kakomon/18_aki/q45.html'
+    , 'https://www.ap-siken.com/kakomon/26_aki/q48.html'
+    , 'https://www.ap-siken.com/kakomon/28_aki/q49.html'
+    , 'https://www.fe-siken.com/kakomon/26_haru/q53.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q53.html'
+    , 'https://www.ap-siken.com/kakomon/29_aki/q54.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q54.html'
+    , 'https://www.fe-siken.com/kakomon/31_haru/q56.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q55.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q57.html'
+    , 'https://www.sg-siken.com/kakomon/30_aki/q39.html'
+    , 'https://www.sc-siken.com/kakomon/21_haru/am2_25.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q60.html'
+    , 'https://www.fe-siken.com/kakomon/27_haru/q62.html'
+    , 'https://www.fe-siken.com/kakomon/25_haru/q63.html'
+    , 'https://www.ap-siken.com/kakomon/03_aki/q61.html'
+    , 'https://www.ap-siken.com/kakomon/26_haru/q66.html'
+    , 'https://www.fe-siken.com/kakomon/26_aki/q67.html'
+    , 'https://www.ap-siken.com/kakomon/28_aki/q67.html'
+    , 'https://www.ap-siken.com/kakomon/24_aki/q67.html'
+    , 'https://www.fe-siken.com/kakomon/24_aki/q70.html'
+    , 'https://www.fe-siken.com/kakomon/21_haru/q71.html'
+    , 'https://www.ap-siken.com/kakomon/01_aki/q71.html'
+    , 'https://www.ap-siken.com/kakomon/25_haru/q71.html'
+    , 'https://www.ap-siken.com/kakomon/28_haru/q71.html'
+    , 'https://www.fe-siken.com/kakomon/28_aki/q72.html'
+    , 'https://www.fe-siken.com/kakomon/31_haru/q73.html'
+    , 'https://www.fe-siken.com/kakomon/20_aki/q74.html'
+    , 'https://www.fe-siken.com/kakomon/25_aki/q75.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q77.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q78.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q79.html'
+    , 'https://www.ap-siken.com/kakomon/27_haru/q80.html'
   ],
   r05m06: [
-    '',
-    'https://www.fe-siken.com/kakomon/20_aki/q4.html',
-    'https://www.rs.kagu.tus.ac.jp/infoserv/j-siken/H12b2/am71.html',
-    '',
-    'https://www.fe-siken.com/kakomon/23_aki/q3.html',
-    'https://www.ap-siken.com/kakomon/23_toku/q6.html',
-    'https://www.fe-siken.com/kakomon/21_haru/q7.html',
-    'https://www.fe-siken.com/kakomon/22_haru/q8.html',
-    'https://www.fe-siken.com/kakomon/19_aki/q19.html',
-    'https://www.fe-siken.com/kakomon/19_aki/q22.html',
-    'https://www.fe-siken.com/kakomon/21_haru/q13.html',
-    'https://www.ap-siken.com/kakomon/28_haru/q15.html',
-    'https://www.fe-siken.com/kakomon/27_aki/q14.html',
-    'https://www.fe-siken.com/kakomon/19_aki/q28.html',
-    'https://www.fe-siken.com/kakomon/22_haru/q22.html',
-    'https://www.ap-siken.com/kakomon/29_aki/q19.html',
-    'https://www.fe-siken.com/kakomon/23_toku/q26.html',
-    'https://www.fe-siken.com/kakomon/15_aki/q49.html',
-    'https://www.fe-siken.com/kakomon/25_aki/q30.html',
-    'https://www.fe-siken.com/kakomon/24_haru/q28.html',
-    'https://ap-siken.com/kakomon/25_haru/q29.html',
-    'https://www.fe-siken.com/kakomon/23_toku/q32.html',
-    'https://www.fe-siken.com/kakomon/27_aki/q29.html',
-    'https://www.sc-siken.com/kakomon/24_haru/am2_17.html',
-    'https://www.ap-siken.com/kakomon/25_aki/q34.html',
-    'https://www.fe-siken.com/kakomon/19_haru/q35.html',
-    'https://www.ap-siken.com/kakomon/29_aki/q35.html',
-    'https://www.fe-siken.com/kakomon/03_menjo/q41.html',
-    'https://www.ap-siken.com/kakomon/24_aki/q39.html',
-    'https://www.fe-siken.com/kakomon/31_haru/q36.html',
-    'https://www.sg-siken.com/kakomon/30_haru/q2.html',
-    'https://www.fe-siken.com/kakomon/30_aki/q42.html',
-    'https://www.ap-siken.com/kakomon/30_haru/q41.html',
-    'https://www.ap-siken.com/kakomon/24_aki/q41.html',
-    'https://www.ap-siken.com/kakomon/02_aki/q46.html',
-    'https://www.fe-siken.com/kakomon/30_haru/q46.html',
-    'https://www.ap-siken.com/kakomon/26_haru/q47.html',
-    'https://www.fe-siken.com/kakomon/24_haru/q48.html',
-    'https://www.itpassportsiken.com/kakomon/20_aki/q28.html',
-    'https://www.ap-siken.com/kakomon/30_haru/q48.html',
-    'https://www.ap-siken.com/kakomon/26_haru/q49.html',
-    'https://www.fe-siken.com/kakomon/13_aki/q55.html',
-    'https://www.fe-siken.com/kakomon/18_haru/q46.html',
-    'https://www.fe-siken.com/kakomon/23_aki/q56.html',
-    'https://www.ap-siken.com/kakomon/28_aki/q57.html',
-    'https://www.sg-siken.com/kakomon/30_aki/q39.html',
-    'https://www.ap-siken.com/kakomon/22_aki/q63.html',
-    'https://www.fe-siken.com/kakomon/24_aki/q63.html',
-    'https://www.fe-siken.com/kakomon/01_aki/q64.html',
-    'https://www.ap-siken.com/kakomon/27_aki/q67.html',
-    'https://www.fe-siken.com/kakomon/23_aki/q69.html',
-    'https://www.fe-siken.com/kakomon/29_haru/q70.html',
-    'https://www.ap-siken.com/kakomon/04_haru/q70.html',
-    'https://www.ap-siken.com/kakomon/29_aki/q73.html',
-    'https://www.fe-siken.com/kakomon/26_haru/q71.html',
-    'https://www.fe-siken.com/kakomon/31_haru/q73.html',
-    'https://www.fe-siken.com/kakomon/28_aki/q76.html',
-    'https://www.ap-siken.com/kakomon/26_aki/q76.html',
-    'https://www.ap-siken.com/kakomon/25_haru/q74.html',
-    'https://www.fe-siken.com/kakomon/18_haru/q73.html',
-    'https://www.ap-siken.com/kakomon/25_haru/q78.html',
+    ''
+    , 'https://www.fe-siken.com/kakomon/20_aki/q4.html'
+    , 'https://www.fe-siken.com/kakomon/05_menjo/q3.html'
+    , 'https://www.fe-siken.com/kakomon/21_aki/q3.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q3.html'
+    , 'https://www.ap-siken.com/kakomon/23_toku/q6.html'
+    , 'https://www.fe-siken.com/kakomon/21_haru/q7.html'
+    , 'https://www.fe-siken.com/kakomon/22_haru/q8.html'
+    , 'https://www.fe-siken.com/kakomon/19_aki/q19.html'
+    , 'https://www.fe-siken.com/kakomon/19_aki/q22.html'
+    , 'https://www.fe-siken.com/kakomon/21_haru/q13.html'
+    , 'https://www.ap-siken.com/kakomon/28_haru/q15.html'
+    , 'https://www.fe-siken.com/kakomon/27_aki/q14.html'
+    , 'https://www.fe-siken.com/kakomon/19_aki/q28.html'
+    , 'https://www.fe-siken.com/kakomon/22_haru/q22.html'
+    , 'https://www.ap-siken.com/kakomon/29_aki/q19.html'
+    , 'https://www.fe-siken.com/kakomon/23_toku/q26.html'
+    , 'https://www.fe-siken.com/kakomon/15_aki/q49.html'
+    , 'https://www.fe-siken.com/kakomon/25_aki/q30.html'
+    , 'https://www.fe-siken.com/kakomon/24_haru/q28.html'
+    , 'https://www.ap-siken.com/kakomon/25_haru/q29.html'
+    , 'https://www.fe-siken.com/kakomon/23_toku/q32.html'
+    , 'https://www.fe-siken.com/kakomon/27_aki/q29.html'
+    , 'https://www.sc-siken.com/kakomon/24_haru/am2_17.html'
+    , 'https://www.ap-siken.com/kakomon/25_aki/q34.html'
+    , 'https://www.fe-siken.com/kakomon/19_haru/q35.html'
+    , 'https://www.ap-siken.com/kakomon/29_aki/q35.html'
+    , 'https://www.fe-siken.com/kakomon/03_menjo/q41.html'
+    , 'https://www.ap-siken.com/kakomon/24_aki/q39.html'
+    , 'https://www.fe-siken.com/kakomon/31_haru/q36.html'
+    , 'https://www.sg-siken.com/kakomon/30_haru/q2.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q42.html'
+    , 'https://www.ap-siken.com/kakomon/30_haru/q41.html'
+    , 'https://www.ap-siken.com/kakomon/24_aki/q41.html'
+    , 'https://www.ap-siken.com/kakomon/02_aki/q46.html'
+    , 'https://www.fe-siken.com/kakomon/30_haru/q46.html'
+    , 'https://www.ap-siken.com/kakomon/26_haru/q47.html'
+    , 'https://www.fe-siken.com/kakomon/24_haru/q48.html'
+    , 'https://www.itpassportsiken.com/kakomon/20_aki/q28.html'
+    , 'https://www.ap-siken.com/kakomon/30_haru/q48.html'
+    , 'https://www.ap-siken.com/kakomon/26_haru/q49.html'
+    , 'https://www.fe-siken.com/kakomon/13_aki/q55.html'
+    , 'https://www.fe-siken.com/kakomon/18_haru/q46.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q56.html'
+    , 'https://www.ap-siken.com/kakomon/28_aki/q57.html'
+    , 'https://www.sg-siken.com/kakomon/30_aki/q39.html'
+    , 'https://www.ap-siken.com/kakomon/22_aki/q63.html'
+    , 'https://www.fe-siken.com/kakomon/24_aki/q63.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q64.html'
+    , 'https://www.ap-siken.com/kakomon/27_aki/q67.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q69.html'
+    , 'https://www.fe-siken.com/kakomon/29_haru/q70.html'
+    , 'https://www.ap-siken.com/kakomon/04_haru/q70.html'
+    , 'https://www.ap-siken.com/kakomon/29_aki/q73.html'
+    , 'https://www.fe-siken.com/kakomon/26_haru/q71.html'
+    , 'https://www.fe-siken.com/kakomon/31_haru/q73.html'
+    , 'https://www.fe-siken.com/kakomon/28_aki/q76.html'
+    , 'https://www.ap-siken.com/kakomon/26_aki/q76.html'
+    , 'https://www.ap-siken.com/kakomon/25_haru/q74.html'
+    , 'https://www.fe-siken.com/kakomon/18_haru/q73.html'
+    , 'https://www.ap-siken.com/kakomon/25_haru/q78.html'
   ],
   r05m07: [
-    ,
-    'https://www.fe-siken.com/kakomon/02_menjo/q2.html',
-    'https://www.fe-siken.com/kakomon/14_haru/q11.html',
-    'https://www.fe-siken.com/kakomon/26_aki/q4.html',
-    'https://www.ap-siken.com/kakomon/01_aki/q3.html',
-    'https://www.fe-siken.com/kakomon/26_haru/q7.html',
-    'https://www.ap-siken.com/kakomon/21_haru/q5.html',
-    'https://www.fe-siken.com/kakomon/29_aki/q7.html',
-    'https://www.fe-siken.com/kakomon/21_haru/q11.html',
-    'https://www.fe-siken.com/kakomon/29_haru/q10.html',
-    'https://www.fe-siken.com/kakomon/20_haru/q21.html',
-    'https://www.fe-siken.com/kakomon/30_haru/q15.html',
-    'https://www.fe-siken.com/kakomon/30_aki/q15.html',
-    'https://www.fe-siken.com/kakomon/16_haru/q30.html',
-    'https://www.fe-siken.com/kakomon/30_haru/q18.html',
-    'https://www.fe-siken.com/kakomon/16_haru/q35.html',
-    'https://www.fe-siken.com/kakomon/20_aki/q16.html',
-    'https://www.fe-siken.com/kakomon/29_aki/q25.html',
-    'https://www.fe-siken.com/kakomon/22_haru/q33.html',
-    'https://www.fe-siken.com/kakomon/14_haru/q67.html',
-    'https://www.fe-siken.com/kakomon/17_haru/q60.html',
-    'https://www.db-siken.com/kakomon/22_haru/am2_11.html',
-    'https://www.fe-siken.com/kakomon/23_toku/q34.html',
-    'https://www.ap-siken.com/kakomon/25_aki/q32.html',
-    'https://www.fe-siken.com/kakomon/22_aki/q36.html',
-    'https://www.fe-siken.com/kakomon/21_aki/q39.html',
-    'https://www.fe-siken.com/kakomon/22_haru/q39.html',
-    'https://www.sg-siken.com/kakomon/01_aki/q10.html',
-    'https://www.fe-siken.com/kakomon/01_aki/q40.html',
-    'https://www.fe-siken.com/kakomon/30_aki/q36.html',
-    'https://www.ap-siken.com/kakomon/29_aki/q42.html',
-    'https://www.sg-siken.com/kakomon/28_haru/q2.html',
-    'https://www.sc-siken.com/kakomon/26_aki/am2_9.html',
-    'https://www.fe-siken.com/kakomon/30_haru/q42.html',
-    'https://www.ap-siken.com/kakomon/21_haru/q57.html',
-    'https://www.fe-siken.com/kakomon/20_aki/q41.html',
-    'https://www.fe-siken.com/kakomon/22_haru/q52.html',
-    'https://www.fe-siken.com/kakomon/15_haru/q53.html',
-    'https://www.ap-siken.com/kakomon/22_aki/q48.html',
-    'https://www.ap-siken.com/kakomon/03_aki/q50.html',
-    'https://www.ap-siken.com/kakomon/26_aki/q49.html',
-    'https://www.ap-siken.com/kakomon/25_haru/q53.html',
-    'https://www.ap-siken.com/kakomon/24_aki/q53.html',
-    'https://www.ap-siken.com/kakomon/25_aki/q57.html',
-    'https://www.sc-siken.com/kakomon/26_haru/am2_24.html',
-    'https://www.ap-siken.com/kakomon/27_haru/q60.html',
-    'https://www.ap-siken.com/kakomon/26_aki/q61.html',
-    'https://www.fe-siken.com/kakomon/01_aki/q63.html',
-    'https://www.fe-siken.com/kakomon/26_aki/q67.html',
-    'https://www.fe-siken.com/kakomon/29_haru/q68.html',
-    'https://www.ap-siken.com/kakomon/23_aki/q67.html',
-    'https://www.fe-siken.com/kakomon/27_aki/q70.html',
-    'https://www.fe-siken.com/kakomon/30_aki/q70.html',
-    'https://www.fe-siken.com/kakomon/30_aki/q71.html',
-    'https://www.fe-siken.com/kakomon/01_aki/q71.html',
-    'https://www.ap-siken.com/kakomon/28_aki/q72.html',
-    'https://www.fe-siken.com/kakomon/26_aki/q75.html',
-    'https://www.fe-siken.com/kakomon/24_aki/q76.html',
-    'https://www.fe-siken.com/kakomon/18_haru/q78.html',
-    'https://www.fe-siken.com/kakomon/23_aki/q78.html',
-    'https://www.ap-siken.com/kakomon/31_haru/q80.html',
+    ''
+    , 'https://www.fe-siken.com/kakomon/02_menjo/q2.html'
+    , 'https://www.fe-siken.com/kakomon/14_haru/q11.html'
+    , 'https://www.fe-siken.com/kakomon/26_aki/q4.html'
+    , 'https://www.ap-siken.com/kakomon/01_aki/q3.html'
+    , 'https://www.fe-siken.com/kakomon/26_haru/q7.html'
+    , 'https://www.ap-siken.com/kakomon/21_haru/q5.html'
+    , 'https://www.fe-siken.com/kakomon/29_aki/q7.html'
+    , 'https://www.fe-siken.com/kakomon/21_haru/q11.html'
+    , 'https://www.fe-siken.com/kakomon/29_haru/q10.html'
+    , 'https://www.fe-siken.com/kakomon/20_haru/q21.html'
+    , 'https://www.fe-siken.com/kakomon/30_haru/q15.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q15.html'
+    , 'https://www.fe-siken.com/kakomon/16_haru/q30.html'
+    , 'https://www.fe-siken.com/kakomon/30_haru/q18.html'
+    , 'https://www.fe-siken.com/kakomon/16_haru/q35.html'
+    , 'https://www.fe-siken.com/kakomon/20_aki/q16.html'
+    , 'https://www.fe-siken.com/kakomon/29_aki/q25.html'
+    , 'https://www.fe-siken.com/kakomon/22_haru/q33.html'
+    , 'https://www.fe-siken.com/kakomon/14_haru/q67.html'
+    , 'https://www.fe-siken.com/kakomon/17_haru/q60.html'
+    , 'https://www.db-siken.com/kakomon/22_haru/am2_11.html'
+    , 'https://www.fe-siken.com/kakomon/23_toku/q34.html'
+    , 'https://www.ap-siken.com/kakomon/25_aki/q32.html'
+    , 'https://www.fe-siken.com/kakomon/22_aki/q36.html'
+    , 'https://www.fe-siken.com/kakomon/21_aki/q39.html'
+    , 'https://www.fe-siken.com/kakomon/22_haru/q39.html'
+    , 'https://www.sg-siken.com/kakomon/01_aki/q10.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q40.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q36.html'
+    , 'https://www.ap-siken.com/kakomon/29_aki/q42.html'
+    , 'https://www.sg-siken.com/kakomon/28_haru/q2.html'
+    , 'https://www.sc-siken.com/kakomon/26_aki/am2_9.html'
+    , 'https://www.fe-siken.com/kakomon/30_haru/q42.html'
+    , 'https://www.ap-siken.com/kakomon/21_haru/q57.html'
+    , 'https://www.fe-siken.com/kakomon/20_aki/q41.html'
+    , 'https://www.fe-siken.com/kakomon/22_haru/q52.html'
+    , 'https://www.fe-siken.com/kakomon/15_haru/q53.html'
+    , 'https://www.ap-siken.com/kakomon/22_aki/q48.html'
+    , 'https://www.ap-siken.com/kakomon/03_aki/q50.html'
+    , 'https://www.ap-siken.com/kakomon/26_aki/q49.html'
+    , 'https://www.ap-siken.com/kakomon/25_haru/q53.html'
+    , 'https://www.ap-siken.com/kakomon/24_aki/q53.html'
+    , 'https://www.ap-siken.com/kakomon/25_aki/q57.html'
+    , 'https://www.sc-siken.com/kakomon/26_haru/am2_24.html'
+    , 'https://www.ap-siken.com/kakomon/27_haru/q60.html'
+    , 'https://www.ap-siken.com/kakomon/26_aki/q61.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q63.html'
+    , 'https://www.fe-siken.com/kakomon/26_aki/q67.html'
+    , 'https://www.fe-siken.com/kakomon/29_haru/q68.html'
+    , 'https://www.ap-siken.com/kakomon/23_aki/q67.html'
+    , 'https://www.fe-siken.com/kakomon/27_aki/q70.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q70.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q71.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q71.html'
+    , 'https://www.ap-siken.com/kakomon/28_aki/q72.html'
+    , 'https://www.fe-siken.com/kakomon/26_aki/q75.html'
+    , 'https://www.fe-siken.com/kakomon/24_aki/q76.html'
+    , 'https://www.fe-siken.com/kakomon/18_haru/q78.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q78.html'
+    , 'https://www.ap-siken.com/kakomon/31_haru/q80.html'
   ],
   r05m12: [
-    ,
-    'https://www.itpassportsiken.com/kakomon/24_haru/q52.html',
-    'https://www.fe-siken.com/kakomon/20_aki/q6.html',
-    'https://www.fe-siken.com/kakomon/17_haru/q10.html',
-    'https://www.fe-siken.com/kakomon/19_aki/q56.html',
-    'https://www.fe-siken.com/kakomon/21_haru/q6.html',
-    'https://www.fe-siken.com/kakomon/17_haru/q15.html',
-    'https://www.fe-siken.com/kakomon/15_haru/q41.html',
-    'https://www.fe-siken.com/kakomon/13_haru/q20.html',
-    'https://www.fe-siken.com/kakomon/19_haru/q21.html',
-    'https://www.ap-siken.com/kakomon/23_aki/q13.html',
-    'https://www.ap-siken.com/kakomon/28_haru/q14.html',
-    'https://www.fe-siken.com/kakomon/15_haru/q39.html',
-    'https://www.fe-siken.com/kakomon/20_aki/q32.html',
-    'https://www.fe-siken.com/kakomon/25_haru/q22.html',
-    'https://www.ap-siken.com/kakomon/23_toku/q23.html',
-    'https://www.fe-siken.com/kakomon/29_aki/q21.html',
-    'https://www.ap-siken.com/kakomon/30_haru/q24.html',
-    'https://www.fe-siken.com/kakomon/31_haru/q30.html',
-    'https://www.fe-siken.com/kakomon/15_aki/q67.html',
-    'https://www.fe-siken.com/kakomon/28_aki/q29.html',
-    'https://www.sc-siken.com/kakomon/25_haru/am2_21.html',
-    'https://www.fe-siken.com/kakomon/25_haru/q30.html',
-    'https://www.ap-siken.com/kakomon/23_toku/q34.html',
-    'https://www.fe-siken.com/kakomon/23_aki/q37.html',
-    'https://www.fe-siken.com/kakomon/24_aki/q36.html',
-    'https://www.ap-siken.com/kakomon/31_haru/q35.html',
-    'https://www.ap-siken.com/kakomon/26_aki/q35.html',
-    'https://www.ap-siken.com/kakomon/18_aki/q71.html',
-    'https://www.fe-siken.com/kakomon/20_haru/q64.html',
-    'https://www.sg-siken.com/kakomon/29_haru/q26.html',
-    'https://www.ap-siken.com/kakomon/29_aki/q38.html',
-    'https://www.fe-siken.com/kakomon/26_aki/q40.html',
-    'https://www.ap-siken.com/kakomon/28_aki/q43.html',
-    'https://www.ap-siken.com/kakomon/28_aki/q46.html',
-    'https://www.fe-siken.com/kakomon/24_aki/q47.html',
-    'https://www.fe-siken.com/kakomon/25_haru/q46.html',
-    'https://www.fe-siken.com/kakomon/22_aki/q48.html',
-    'https://www.fe-siken.com/kakomon/29_aki/q50.html',
-    'https://www.fe-siken.com/kakomon/sample/a41.html',
-    'https://www.fe-siken.com/kakomon/01_aki/q50.html',
-    'https://www.ap-siken.com/kakomon/23_aki/q52.html',
-    'https://www.fe-siken.com/kakomon/16_aki/q56.html',
-    'https://www.ap-siken.com/kakomon/27_haru/q56.html',
-    'https://www.fe-siken.com/kakomon/19_haru/q49.html',
-    'https://www.sg-siken.com/kakomon/30_haru/q37.html',
-    'https://www.ap-siken.com/kakomon/25_haru/q62.html',
-    'https://www.fe-siken.com/kakomon/31_haru/q64.html',
-    'https://www.ap-siken.com/kakomon/30_aki/q65.html',
-    'https://www.ap-siken.com/kakomon/21_aki/q69.html',
-    'https://www.ap-siken.com/kakomon/27_haru/q68.html',
-    'https://www.ap-siken.com/kakomon/25_haru/q70.html',
-    'https://www.ap-siken.com/kakomon/01_aki/q70.html',
-    'https://www.fe-siken.com/kakomon/27_haru/q72.html',
-    'https://www.fe-siken.com/kakomon/28_aki/q72.html',
-    'https://www.fe-siken.com/kakomon/27_aki/q73.html',
-    'https://www.fe-siken.com/kakomon/31_haru/q76.html',
-    'https://www.ap-siken.com/kakomon/31_haru/q75.html',
-    'https://www.fe-siken.com/kakomon/22_aki/q77.html',
-    'https://www.ap-siken.com/kakomon/25_aki/q77.html',
-    'https://www.ap-siken.com/kakomon/25_haru/q80.html',
+    ''
+    , 'https://www.itpassportsiken.com/kakomon/24_haru/q52.html'
+    , 'https://www.fe-siken.com/kakomon/20_aki/q6.html'
+    , 'https://www.fe-siken.com/kakomon/17_haru/q10.html'
+    , 'https://www.fe-siken.com/kakomon/19_aki/q56.html'
+    , 'https://www.fe-siken.com/kakomon/21_haru/q6.html'
+    , 'https://www.fe-siken.com/kakomon/17_haru/q15.html'
+    , 'https://www.fe-siken.com/kakomon/15_haru/q41.html'
+    , 'https://www.fe-siken.com/kakomon/13_haru/q20.html'
+    , 'https://www.fe-siken.com/kakomon/19_haru/q21.html'
+    , 'https://www.ap-siken.com/kakomon/23_aki/q13.html'
+    , 'https://www.ap-siken.com/kakomon/28_haru/q14.html'
+    , 'https://www.fe-siken.com/kakomon/15_haru/q39.html'
+    , 'https://www.fe-siken.com/kakomon/20_aki/q32.html'
+    , 'https://www.fe-siken.com/kakomon/25_haru/q22.html'
+    , 'https://www.ap-siken.com/kakomon/23_toku/q23.html'
+    , 'https://www.fe-siken.com/kakomon/29_aki/q21.html'
+    , 'https://www.ap-siken.com/kakomon/30_haru/q24.html'
+    , 'https://www.fe-siken.com/kakomon/31_haru/q30.html'
+    , 'https://www.fe-siken.com/kakomon/15_aki/q67.html'
+    , 'https://www.fe-siken.com/kakomon/28_aki/q29.html'
+    , 'https://www.sc-siken.com/kakomon/25_haru/am2_21.html'
+    , 'https://www.fe-siken.com/kakomon/25_haru/q30.html'
+    , 'https://www.ap-siken.com/kakomon/23_toku/q34.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q37.html'
+    , 'https://www.fe-siken.com/kakomon/24_aki/q36.html'
+    , 'https://www.ap-siken.com/kakomon/31_haru/q35.html'
+    , 'https://www.ap-siken.com/kakomon/26_aki/q35.html'
+    , 'https://www.ap-siken.com/kakomon/18_aki/q71.html'
+    , 'https://www.fe-siken.com/kakomon/20_haru/q64.html'
+    , 'https://www.sg-siken.com/kakomon/29_haru/q26.html'
+    , 'https://www.ap-siken.com/kakomon/29_aki/q38.html'
+    , 'https://www.fe-siken.com/kakomon/26_aki/q40.html'
+    , 'https://www.ap-siken.com/kakomon/28_aki/q43.html'
+    , 'https://www.ap-siken.com/kakomon/28_aki/q46.html'
+    , 'https://www.fe-siken.com/kakomon/24_aki/q47.html'
+    , 'https://www.fe-siken.com/kakomon/25_haru/q46.html'
+    , 'https://www.fe-siken.com/kakomon/22_aki/q48.html'
+    , 'https://www.fe-siken.com/kakomon/29_aki/q50.html'
+    , 'https://www.fe-siken.com/kakomon/sample/a41.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q50.html'
+    , 'https://www.ap-siken.com/kakomon/23_aki/q52.html'
+    , 'https://www.fe-siken.com/kakomon/16_aki/q56.html'
+    , 'https://www.ap-siken.com/kakomon/27_haru/q56.html'
+    , 'https://www.fe-siken.com/kakomon/19_haru/q49.html'
+    , 'https://www.sg-siken.com/kakomon/30_haru/q37.html'
+    , 'https://www.ap-siken.com/kakomon/25_haru/q62.html'
+    , 'https://www.fe-siken.com/kakomon/31_haru/q64.html'
+    , 'https://www.ap-siken.com/kakomon/30_aki/q65.html'
+    , 'https://www.ap-siken.com/kakomon/21_aki/q69.html'
+    , 'https://www.ap-siken.com/kakomon/27_haru/q68.html'
+    , 'https://www.ap-siken.com/kakomon/25_haru/q70.html'
+    , 'https://www.ap-siken.com/kakomon/01_aki/q70.html'
+    , 'https://www.fe-siken.com/kakomon/27_haru/q72.html'
+    , 'https://www.fe-siken.com/kakomon/28_aki/q72.html'
+    , 'https://www.fe-siken.com/kakomon/27_aki/q73.html'
+    , 'https://www.fe-siken.com/kakomon/31_haru/q76.html'
+    , 'https://www.ap-siken.com/kakomon/31_haru/q75.html'
+    , 'https://www.fe-siken.com/kakomon/22_aki/q77.html'
+    , 'https://www.ap-siken.com/kakomon/25_aki/q77.html'
+    , 'https://www.ap-siken.com/kakomon/25_haru/q80.html'
   ],
   r06m01: [
-    ,
-    'https://www.fe-siken.com/kakomon/14_aki/q4.html',
-    'https://www.fe-siken.com/kakomon/20_aki/q8.html',
-    'https://www.ap-siken.com/kakomon/20_aki/q7.html',
-    'https://www.fe-siken.com/kakomon/25_haru/q4.html',
-    'https://www.fe-siken.com/kakomon/15_aki/q13.html',
-    'https://www.ap-siken.com/kakomon/03_moshi/q6.html',
-    'https://www.fe-siken.com/kakomon/23_aki/q8.html',
-    'https://www.fe-siken.com/kakomon/19_haru/q19.html',
-    'https://www.fe-siken.com/kakomon/23_toku/q12.html',
-    'https://www.fe-siken.com/kakomon/01_aki/q15.html',
-    'https://www.sg-siken.com/kakomon/28_aki/q45.html',
-    'https://www.fe-siken.com/kakomon/30_aki/q14.html',
-    'https://www.fe-siken.com/kakomon/27_aki/q18.html',
-    'https://www.fe-siken.com/kakomon/20_haru/q29.html',
-    'https://www.fe-siken.com/kakomon/25_aki/q21.html',
-    'https://www.ap-siken.com/kakomon/22_haru/q25.html',
-    'https://www.fe-siken.com/kakomon/14_haru/q50.html',
-    'https://www.fe-siken.com/kakomon/16_haru/q70.html',
-    'https://www.fe-siken.com/kakomon/21_aki/q32.html',
-    'https://www.ap-siken.com/kakomon/31_haru/q27.html',
-    'https://www.fe-siken.com/kakomon/27_haru/q30.html',
-    'https://www.ap-siken.com/kakomon/28_haru/q30.html',
-    'https://www.sg-siken.com/kakomon/01_aki/q47.html',
-    'https://www.fe-siken.com/kakomon/24_aki/q35.html',
-    'https://www.ap-siken.com/kakomon/24_haru/q33.html',
-    'https://www.sg-siken.com/kakomon/31_haru/q46.html',
-    'https://www.ap-siken.com/kakomon/19_aki/q72.html',
-    'https://www.fe-siken.com/kakomon/30_aki/q38.html',
-    'https://www.sg-siken.com/kakomon/31_haru/q24.html',
-    'https://www.ap-siken.com/kakomon/03_aki/q40.html',
-    'https://www.ap-siken.com/kakomon/31_haru/q41.html',
-    'https://www.sg-siken.com/kakomon/31_haru/q20.html',
-    'https://www.ap-siken.com/kakomon/26_haru/q44.html',
-    'https://www.fe-siken.com/kakomon/01_aki/q45.html',
-    'https://www.fe-siken.com/kakomon/19_aki/q44.html',
-    'https://www.fe-siken.com/kakomon/30_aki/q48.html',
-    'https://www.fe-siken.com/kakomon/25_aki/q50.html',
-    'https://www.ap-siken.com/kakomon/24_aki/q48.html',
-    '',
-    'https://www.fe-siken.com/kakomon/29_haru/q50.html',
-    'https://www.fe-siken.com/kakomon/20_aki/q46.html',
-    'https://www.fe-siken.com/kakomon/03_menjo/q53.html',
-    'https://www.fe-siken.com/kakomon/29_aki/q56.html',
-    'https://www.ap-siken.com/kakomon/25_haru/q57.html',
-    'https://www.fe-siken.com/kakomon/31_haru/q60.html',
-    'https://www.fe-siken.com/kakomon/01_aki/q62.html',
-    'https://www.fe-siken.com/kakomon/29_aki/q65.html',
-    'https://www.ap-siken.com/kakomon/24_aki/q66.html',
-    'https://www.fe-siken.com/kakomon/23_aki/q68.html',
-    'https://www.fe-siken.com/kakomon/23_aki/q70.html',
-    'https://www.ap-siken.com/kakomon/31_haru/q68.html',
-    'https://www.fe-siken.com/kakomon/23_aki/q71.html',
-    'https://www.ap-siken.com/kakomon/27_aki/q71.html',
-    'https://www.fe-siken.com/kakomon/31_haru/q74.html',
-    'https://www.ap-siken.com/kakomon/23_aki/q72.html',
-    'https://www.fe-siken.com/kakomon/27_haru/q76.html',
-    'https://www.fe-siken.com/kakomon/16_aki/q77.html',
-    'https://www.fe-siken.com/kakomon/16_aki/q78.html',
-    'https://www.ap-siken.com/kakomon/04_haru/q76.html',
-    'https://www.fe-siken.com/kakomon/24_haru/q78.html',
+    ''
+    , 'https://www.fe-siken.com/kakomon/14_aki/q4.html'
+    , 'https://www.fe-siken.com/kakomon/20_aki/q8.html'
+    , 'https://www.ap-siken.com/kakomon/20_aki/q7.html'
+    , 'https://www.fe-siken.com/kakomon/25_haru/q4.html'
+    , 'https://www.fe-siken.com/kakomon/15_aki/q13.html'
+    , 'https://www.ap-siken.com/kakomon/03_moshi/q6.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q8.html'
+    , 'https://www.fe-siken.com/kakomon/19_haru/q19.html'
+    , 'https://www.fe-siken.com/kakomon/23_toku/q12.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q15.html'
+    , 'https://www.sg-siken.com/kakomon/28_aki/q45.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q14.html'
+    , 'https://www.fe-siken.com/kakomon/27_aki/q18.html'
+    , 'https://www.fe-siken.com/kakomon/20_haru/q29.html'
+    , 'https://www.fe-siken.com/kakomon/25_aki/q21.html'
+    , 'https://www.ap-siken.com/kakomon/22_haru/q25.html'
+    , 'https://www.fe-siken.com/kakomon/14_haru/q50.html'
+    , 'https://www.fe-siken.com/kakomon/16_haru/q70.html'
+    , 'https://www.fe-siken.com/kakomon/21_aki/q32.html'
+    , 'https://www.ap-siken.com/kakomon/31_haru/q27.html'
+    , 'https://www.fe-siken.com/kakomon/27_haru/q30.html'
+    , 'https://www.ap-siken.com/kakomon/28_haru/q30.html'
+    , 'https://www.sg-siken.com/kakomon/01_aki/q47.html'
+    , 'https://www.fe-siken.com/kakomon/24_aki/q35.html'
+    , 'https://www.ap-siken.com/kakomon/24_haru/q33.html'
+    , 'https://www.sg-siken.com/kakomon/31_haru/q46.html'
+    , 'https://www.ap-siken.com/kakomon/19_aki/q72.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q38.html'
+    , 'https://www.sg-siken.com/kakomon/31_haru/q24.html'
+    , 'https://www.ap-siken.com/kakomon/03_aki/q40.html'
+    , 'https://www.ap-siken.com/kakomon/31_haru/q41.html'
+    , 'https://www.sg-siken.com/kakomon/31_haru/q20.html'
+    , 'https://www.ap-siken.com/kakomon/26_haru/q44.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q45.html'
+    , 'https://www.fe-siken.com/kakomon/19_aki/q44.html'
+    , 'https://www.fe-siken.com/kakomon/30_aki/q48.html'
+    , 'https://www.fe-siken.com/kakomon/25_aki/q50.html'
+    , 'https://www.ap-siken.com/kakomon/24_aki/q48.html'
+    , 'https://www.fe-siken.com/kakomon/05_menjo/q40.html'
+    , 'https://www.fe-siken.com/kakomon/29_haru/q50.html'
+    , 'https://www.fe-siken.com/kakomon/20_aki/q46.html'
+    , 'https://www.fe-siken.com/kakomon/03_menjo/q53.html'
+    , 'https://www.fe-siken.com/kakomon/29_aki/q56.html'
+    , 'https://www.ap-siken.com/kakomon/25_haru/q57.html'
+    , 'https://www.fe-siken.com/kakomon/31_haru/q60.html'
+    , 'https://www.fe-siken.com/kakomon/01_aki/q62.html'
+    , 'https://www.fe-siken.com/kakomon/29_aki/q65.html'
+    , 'https://www.ap-siken.com/kakomon/24_aki/q66.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q68.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q70.html'
+    , 'https://www.ap-siken.com/kakomon/31_haru/q68.html'
+    , 'https://www.fe-siken.com/kakomon/23_aki/q71.html'
+    , 'https://www.ap-siken.com/kakomon/27_aki/q71.html'
+    , 'https://www.fe-siken.com/kakomon/31_haru/q74.html'
+    , 'https://www.ap-siken.com/kakomon/23_aki/q72.html'
+    , 'https://www.fe-siken.com/kakomon/27_haru/q76.html'
+    , 'https://www.fe-siken.com/kakomon/16_aki/q77.html'
+    , 'https://www.fe-siken.com/kakomon/16_aki/q78.html'
+    , 'https://www.ap-siken.com/kakomon/04_haru/q76.html'
+    , 'https://www.fe-siken.com/kakomon/24_haru/q78.html'
   ],
   r06m06: [
+    ''
     , 'https://www.fe-siken.com/kakomon/21_haru/q1.html'
     , 'https://www.fe-siken.com/kakomon/05_menjo/q3.html'
     , 'https://www.fe-siken.com/kakomon/28_haru/q3.html'
@@ -1277,7 +1278,7 @@ const qs = {
     , 'https://www.sg-siken.com/kakomon/30_aki/q12.html'
     , 'https://www.fe-siken.com/kakomon/30_aki/q37.html'
     , 'https://www.fe-siken.com/kakomon/27_aki/q45.html'
-    , 'http://holiday-programmer.net/au/detail.php?problem_i'
+    , 'https://www.sc-siken.com/kakomon/02_aki/am2_7.html'
     , 'https://www.sg-siken.com/kakomon/28_aki/q19.html'
     , 'https://www.ap-siken.com/kakomon/30_haru/q41.html'
     , 'https://www.ap-siken.com/kakomon/29_haru/q36.html'
@@ -1308,7 +1309,7 @@ const qs = {
     , 'https://www.ap-siken.com/kakomon/26_haru/q76.html'
     , 'https://www.fe-siken.com/kakomon/19_aki/q72.html'
     , 'https://www.ap-siken.com/kakomon/27_aki/q80.html'
-  ],  
+  ],
   org202307_01: [
     '',
     'https://www.fe-siken.com/kakomon/16_aki/q1.html',
