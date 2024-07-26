@@ -1435,13 +1435,19 @@ selectQ.addEventListener('change', (e) => {
   applyIFrame(computeUrl());
 });
 prev.addEventListener('click', (e) => {
-  if (selectQ.value <= 1) return;
-  selectQ.value = Number(selectQ.value) - 1;
+  if (selectQ.value <= 1) {
+    selectQ.value = Number(selectNum.value);
+  } else {
+    selectQ.value = Number(selectQ.value) - 1;
+  }
   applyIFrame(computeUrl());
 });
 next.addEventListener('click', (e) => {
-  if (Number(selectQ.value) >= Number(selectNum.value)) return;
-  selectQ.value = Number(selectQ.value) + 1;
+  if (Number(selectQ.value) >= Number(selectNum.value)) {
+    selectQ.value = 1;
+  } else {
+    selectQ.value = Number(selectQ.value) + 1;
+  }
   applyIFrame(computeUrl());
 });
 reset.addEventListener('click', (e) => {
