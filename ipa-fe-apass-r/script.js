@@ -1415,8 +1415,8 @@ nums.forEach((n) => {
 });
 
 const params = new URL(window.location.href).searchParams;
-if (params.get('selectNum') && nums.includes(params.get('selectNum'))) {
-  selectNum.value = params.get('selectNum');
+if (params.get('selectNum') && nums.includes(Number(params.get('selectNum')))) {
+  selectNum.value = Number(params.get('selectNum'));
 }
 if (
   params.get('selectQ') &&
