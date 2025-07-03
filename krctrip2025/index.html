@@ -37,6 +37,13 @@
       .card:hover {
         transform: translateY(-5px);
       }
+      .md-trigger {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+      }
+      .md-trigger:hover {
+        opacity: 0.7;
+      }
       .button-primary {
         background-color: #4caf50; /* Green */
         color: white;
@@ -138,13 +145,15 @@
         </p>
         <!-- Date element with ID for interaction -->
         <div
-          id="event-date-info"
-          class="bg-white text-gray-800 inline-flex flex-col items-center px-6 py-3 rounded-full shadow-lg text-lg md:text-xl font-bold cursor-pointer hover:bg-gray-100 transition-colors duration-200"
+          class="bg-white text-gray-800 inline-flex flex-col items-center px-6 py-3 rounded-full shadow-lg text-lg md:text-xl font-bold hover:bg-gray-100 transition-colors duration-200"
         >
           <div class="flex items-center mb-1">
             開催日：7月14日(月) ～ 7月15日(火) （1泊2日）
           </div>
-          <div class="flex items-center mb-1 text-blue-500">
+          <div
+            id="event-date-info"
+            class="flex items-center mb-1 text-blue-500 cursor-pointer md-trigger"
+          >
             <!-- Left Arrow Icon (two right-pointing triangles) -->
             <svg
               class="w-6 h-6 animate-arrow-left"
@@ -173,7 +182,7 @@
                 stroke-linejoin="round"
               />
             </svg>
-            集合時間・場所はこちら
+            集合時間・場所
             <!-- Right Arrow Icon (two left-pointing triangles) -->
             <svg
               class="w-6 h-6 animate-arrow-right"
@@ -203,6 +212,81 @@
               <path
                 d="M19 19L12 12L19 5"
                 stroke="url(#gradRight)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <!-- New clickable element for "Things to Bring" modal -->
+          <div
+            id="things-to-bring-trigger"
+            class="flex items-center mb-1 text-blue-500 cursor-pointer md-trigger"
+          >
+            <!-- Left Arrow Icon (two right-pointing triangles) -->
+            <svg
+              class="w-6 h-6 animate-arrow-left"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <defs>
+                <linearGradient
+                  id="gradLeft2"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="0%"
+                >
+                  <stop offset="0%" stop-color="#93c5fd" />
+                  <stop offset="100%" stop-color="#2563eb" />
+                </linearGradient>
+              </defs>
+              <path
+                d="M9 5L16 12L9 19"
+                stroke="url(#gradLeft2)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M5 5L12 12L5 19"
+                stroke="url(#gradLeft2)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            持って来てほしいもの
+            <!-- Right Arrow Icon (two left-pointing triangles) -->
+            <svg
+              class="w-6 h-6 animate-arrow-right"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <defs>
+                <linearGradient
+                  id="gradRight2"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="0%"
+                >
+                  <stop offset="0%" stop-color="#93c5fd" />
+                  <stop offset="100%" stop-color="#2563eb" />
+                </linearGradient>
+              </defs>
+              <path
+                d="M15 19L8 12L15 5"
+                stroke="url(#gradRight2)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M19 19L12 12L19 5"
+                stroke="url(#gradRight2)"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -239,6 +323,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <!-- Day 1 -->
           <div
+            id="day1-card"
             class="bg-white p-8 rounded-2xl card border-t-4 border-indigo-500"
           >
             <h3
@@ -292,6 +377,7 @@
 
           <!-- Day 2 -->
           <div
+            id="day2-card"
             class="bg-white p-8 rounded-2xl card border-t-4 border-green-500"
           >
             <h3
@@ -422,7 +508,7 @@
       </div>
     </footer>
 
-    <!-- Modal HTML -->
+    <!-- Modal HTML for 集合時間・場所 -->
     <div
       id="time-modal"
       class="modal-overlay hidden"
@@ -438,25 +524,74 @@
         </h3>
         <div class="space-y-4 text-lg text-gray-700">
           <p>
-            <span class="font-semibold text-indigo-700">学校集合:</span>
+            <span class="text-blue-500 mr-2">▶</span>
+            <span class="font-semibold text-indigo-700">学校集合</span>
             <br />
             <span class="pl-4">国際理工カレッジ 1号館ロビー</span><br />
             <span class="pl-4">AM 9:00 ( 出発 9:30 )</span> <br />
           </p>
           <p>
-            <span class="font-semibold text-indigo-700">現地集合:</span>
+            <span class="text-blue-500 mr-2">▶</span>
+            <span class="font-semibold text-indigo-700">現地集合</span>
             <br />
             <span class="pl-4">アルビンスポーツパーク</span><br />
             <span class="pl-4">AM 11:00</span><br />
           </p>
           <p>
-            <span class="font-semibold text-indigo-700">茂原駅集合:</span>
+            <span class="text-blue-500 mr-2">▶</span>
+            <span class="font-semibold text-indigo-700">茂原駅集合</span>
             <br />
             <span class="pl-4">茂原駅</span><br />
             <span class="pl-4">AM 10:30</span><br />
           </p>
           <p class="text-sm text-gray-500 mt-4">
             ※ 時間は変更になる場合があります。詳細は後日ご連絡いたします。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- New Modal HTML for Things to Bring -->
+    <div
+      id="things-to-bring-modal"
+      class="modal-overlay hidden"
+      aria-modal="true"
+      role="dialog"
+    >
+      <div class="modal-content">
+        <button
+          class="modal-close-button"
+          id="close-things-to-bring-modal-button"
+        >
+          &times;
+        </button>
+        <h3 class="text-2xl font-bold text-blue-800 mb-4 text-center">
+          持って来てほしいもの
+        </h3>
+        <div class="space-y-4 text-lg text-gray-700">
+          <p>
+            <span class="text-blue-500 mr-2">▶</span>
+            <span class="font-semibold text-indigo-700">ウォーターバトル</span>
+            <br />
+            <span class="pl-4">水かけ武器（水鉄砲 etc...）</span><br />
+            <span class="pl-4">ぬれてOKな恰好</span> <br />
+          </p>
+          <p>
+            <span class="text-blue-500 mr-2">▶</span>
+            <span class="font-semibold text-indigo-700">飲み会</span>
+            <br />
+            <span class="pl-4">酒・さけ・SAKE</span><br />
+            <span class="pl-4">つまみ・おかし・夜食</span><br />
+          </p>
+          <p>
+            <span class="text-blue-500 mr-2">▶</span>
+            <span class="font-semibold text-indigo-700">ドミノ倒し大会</span>
+            <br />
+            <span class="pl-4">ピタゴラスイッチ道具（ビー玉、紐 etc...）</span
+            ><br />
+          </p>
+          <p class="text-sm text-gray-500 mt-4">
+            ※ おもしろくなればなんでもお～け～
           </p>
         </div>
       </div>
@@ -512,38 +647,60 @@
 
     <script>
       document.addEventListener('DOMContentLoaded', () => {
+        // Existing modal for event date info
         const eventDateInfo = document.getElementById('event-date-info');
         const timeModal = document.getElementById('time-modal');
         const closeModalButton = document.getElementById('close-modal-button');
 
-        // Function to show the modal
-        const showModal = () => {
-          timeModal.classList.remove('hidden');
+        const showModal = (modalElement) => {
+          modalElement.classList.remove('hidden');
+        };
+        const hideModal = (modalElement) => {
+          modalElement.classList.add('hidden');
         };
 
-        // Function to hide the modal
-        const hideModal = () => {
-          timeModal.classList.add('hidden');
-        };
-
-        // Event listeners for the date info element
         if (eventDateInfo) {
-          eventDateInfo.addEventListener('click', showModal);
-          // Optional: Add hover effect to show modal
-          // eventDateInfo.addEventListener('mouseenter', showModal);
-          // eventDateInfo.addEventListener('mouseleave', hideModal);
+          eventDateInfo.addEventListener('click', () => showModal(timeModal));
         }
-
-        // Event listener for the close button inside the modal
         if (closeModalButton) {
-          closeModalButton.addEventListener('click', hideModal);
+          closeModalButton.addEventListener('click', () =>
+            hideModal(timeModal)
+          );
         }
-
-        // Event listener to close modal when clicking outside the content
         if (timeModal) {
           timeModal.addEventListener('click', (e) => {
             if (e.target === timeModal) {
-              hideModal();
+              hideModal(timeModal);
+            }
+          });
+        }
+
+        // New modal for "Things to Bring"
+        const thingsToBringTrigger = document.getElementById(
+          'things-to-bring-trigger'
+        ); // Changed ID
+        const thingsToBringModal = document.getElementById(
+          'things-to-bring-modal'
+        );
+        const closeThingsToBringModalButton = document.getElementById(
+          'close-things-to-bring-modal-button'
+        );
+
+        if (thingsToBringTrigger) {
+          // Changed ID
+          thingsToBringTrigger.addEventListener('click', () =>
+            showModal(thingsToBringModal)
+          );
+        }
+        if (closeThingsToBringModalButton) {
+          closeThingsToBringModalButton.addEventListener('click', () =>
+            hideModal(thingsToBringModal)
+          );
+        }
+        if (thingsToBringModal) {
+          thingsToBringModal.addEventListener('click', (e) => {
+            if (e.target === thingsToBringModal) {
+              hideModal(thingsToBringModal);
             }
           });
         }
