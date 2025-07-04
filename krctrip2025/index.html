@@ -442,7 +442,11 @@
           イベントの雰囲気を掴もう！
         </h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div class="rounded-xl overflow-hidden shadow-md">
+          <!-- Water Battle Image Card -->
+          <div
+            id="waterbattle-image-trigger"
+            class="rounded-xl overflow-hidden shadow-md cursor-pointer"
+          >
             <img
               src="https://sueasen.github.io/databox/img/waterguns.jpg"
               alt="ウォーターバトル"
@@ -478,7 +482,10 @@
             />
             <p class="p-4 text-center font-semibold bg-white">飲み会！</p>
           </div>
-          <div class="rounded-xl overflow-hidden shadow-md">
+          <div
+            id="domino-image-trigger"
+            class="rounded-xl overflow-hidden shadow-md cursor-pointer"
+          >
             <img
               src="https://sueasen.github.io/databox/img/domino.jpg"
               alt="ドミノ倒し大会"
@@ -604,6 +611,12 @@
             <br />
             <span class="pl-4">ピタゴラスイッチ道具（ビー玉、紐 etc...）</span
             ><br />
+          </p>
+          <p>
+            <span class="text-blue-500 mr-2">▶</span>
+            <span class="font-semibold text-indigo-700">その他</span>
+            <br />
+            <span class="pl-4">バスタオル・着替え・フリー etc...</span><br />
           </p>
           <p class="text-sm text-gray-500 mt-4">
             ※ たのしくなればなんでもお～け～
@@ -734,6 +747,87 @@
       </div>
     </div>
 
+    <!-- Modal HTML for Domino Image -->
+    <div
+      id="domino-image-modal"
+      class="modal-overlay hidden"
+      aria-modal="true"
+      role="dialog"
+      aria-labelledby="dominoImageModalTitle"
+    >
+      <div class="modal-content">
+        <button
+          class="modal-close-button"
+          id="close-domino-image-modal-button"
+          aria-label="ドミノ倒し大会画像モーダルを閉じる"
+        >
+          &times;
+        </button>
+        <h3
+          id="dominoImageModalTitle"
+          class="text-2xl font-bold text-blue-800 mb-4 text-center"
+        >
+          ドミノ倒し大会
+        </h3>
+        <img
+          src="https://sueasen.github.io/databox/img/domino_ov.png"
+          alt="ドミノ倒し大会のオーバービュー"
+          class="w-full h-auto rounded-lg"
+        />
+        <p class="text-sm text-gray-500 mt-4">
+          １．ロングタイム戦<br />
+          長く倒し続けるために創意工夫（ピタゴラスイッチ）<br />
+          そのための資材の持ち込みOK（紙コップとかビー玉とか。ドミノ追加はNG）<br />
+          ２．お題戦<br />
+          お題の形を作って倒れるまでの時間で競う（早い方が勝ち）<br />
+          ３．芸術戦<br />
+          チームで芸術性が高い模様（倒した後の形）を作ろう。<br />
+          お互いに投票して、投票数が高いチームが勝ち（自チームへの投票はNG）
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal HTML for Water Battle Image -->
+    <div
+      id="waterbattle-image-modal"
+      class="modal-overlay hidden"
+      aria-modal="true"
+      role="dialog"
+      aria-labelledby="waterbattleImageModalTitle"
+    >
+      <div class="modal-content">
+        <button
+          class="modal-close-button"
+          id="close-waterbattle-image-modal-button"
+          aria-label="ウォーターバトル画像モーダルを閉じる"
+        >
+          &times;
+        </button>
+        <h3
+          id="waterbattleImageModalTitle"
+          class="text-2xl font-bold text-blue-800 mb-4 text-center"
+        >
+          ウォーターバトル
+        </h3>
+        <img
+          src="https://sueasen.github.io/databox/img/waterbattle_ov.png"
+          alt="ウォーターバトルのオーバービュー"
+          class="w-full h-auto rounded-lg"
+        />
+        <p class="text-sm text-gray-500 mt-4">
+          〇 クラス対抗戦<br />
+          クラス対抗のウォーターバトル<br />
+          めちゃめちゃ水を浴びて楽しもう<br />
+          武器の持ち込み大歓迎！！<br />
+          〇 ターゲットは担任ども<br />
+          日頃の鬱憤を晴らせ、感謝の嵐をぶち当てろ！<br />
+          担任 + 数名がターゲット、他クラスを全滅せよ<br />
+          〇 賞品はお楽しみ<br />
+          勝ったクラスの賞品は．．．！？<br />
+        </p>
+      </div>
+    </div>
+
     <!-- Simple animation for button -->
     <style>
       @keyframes bounce-slow {
@@ -816,6 +910,26 @@
         );
         const closeDay2ScheduleModalButton = document.getElementById(
           'close-day2-schedule-modal-button'
+        );
+
+        // New modal for Domino Image
+        const dominoImageTrigger = document.getElementById(
+          'domino-image-trigger'
+        );
+        const dominoImageModal = document.getElementById('domino-image-modal');
+        const closeDominoImageModalButton = document.getElementById(
+          'close-domino-image-modal-button'
+        );
+
+        // New modal for Water Battle Image
+        const waterbattleImageTrigger = document.getElementById(
+          'waterbattle-image-trigger'
+        );
+        const waterbattleImageModal = document.getElementById(
+          'waterbattle-image-modal'
+        );
+        const closeWaterbattleImageModalButton = document.getElementById(
+          'close-waterbattle-image-modal-button'
         );
 
         /**
@@ -920,6 +1034,52 @@
           day2ScheduleModal.addEventListener('click', (e) => {
             if (e.target === day2ScheduleModal) {
               hideModal(day2ScheduleModal);
+            }
+          });
+        }
+
+        // Event listener for Domino Image trigger
+        if (dominoImageTrigger) {
+          dominoImageTrigger.addEventListener('click', () =>
+            showModal(dominoImageModal)
+          );
+        }
+
+        // Event listener for closing Domino Image modal via button
+        if (closeDominoImageModalButton) {
+          closeDominoImageModalButton.addEventListener('click', () =>
+            hideModal(dominoImageModal)
+          );
+        }
+
+        // Event listener for closing Domino Image modal by clicking outside
+        if (dominoImageModal) {
+          dominoImageModal.addEventListener('click', (e) => {
+            if (e.target === dominoImageModal) {
+              hideModal(dominoImageModal);
+            }
+          });
+        }
+
+        // Event listener for Water Battle Image trigger
+        if (waterbattleImageTrigger) {
+          waterbattleImageTrigger.addEventListener('click', () =>
+            showModal(waterbattleImageModal)
+          );
+        }
+
+        // Event listener for closing Water Battle Image modal via button
+        if (closeWaterbattleImageModalButton) {
+          closeWaterbattleImageModalButton.addEventListener('click', () =>
+            hideModal(waterbattleImageModal)
+          );
+        }
+
+        // Event listener for closing Water Battle Image modal by clicking outside
+        if (waterbattleImageModal) {
+          waterbattleImageModal.addEventListener('click', (e) => {
+            if (e.target === waterbattleImageModal) {
+              hideModal(waterbattleImageModal);
             }
           });
         }
